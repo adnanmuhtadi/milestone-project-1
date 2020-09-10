@@ -75,7 +75,7 @@ My aim is to keep it simple and elegant with a soft colour scheme as I do not wa
 
     -   Connect Wireframe (Web) - [View](https://github.com/)
     -   Connect Wireframe (Tablet) - [View](https://github.com/)
-    -   Connect Wireframe (Mobile) - [View](https://github.com/)
+    -   Connect Wireframe (Mobile) - [View](Wireframes/Connect Wireframe (Mobile).pdf)
 
 ## Features
 
