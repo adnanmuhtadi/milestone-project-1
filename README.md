@@ -73,9 +73,9 @@ My aim is to keep it simple and elegant with a soft colour scheme as I do not wa
     -   Portfolio Wireframe (Tablet) - [View](https://github.com/)
     -   Portfolio Wireframe (Mobile) - [View](https://github.com/)
 
-    -   Connect Wireframe (Web) - [View](https://github.com/)
-    -   Connect Wireframe (Tablet) - [View](https://github.com/)
-    -   Connect Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/Wireframes/Connect%20Wireframe%20(Tablet).pdf)
+    -   Connect Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/Wireframes/Connect%20Wireframe%20(Laptop%20-%20Web).pdf)
+    -   Connect Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/Wireframes/Connect%20Wireframe%20(Tablet).pdf)
+    -   Connect Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/Wireframes/Connect%20Wireframe%20(Mobile).pdf)
 
 ## Features
 
