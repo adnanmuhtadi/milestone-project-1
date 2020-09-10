@@ -16,7 +16,9 @@ The purpose of this site is to advertise myself in forms of Work experiences, ed
 
 -   ### User Objectives
 
-#
+The website will inform users (recruiters, employers, independent contracts) who i am and my skills that will be demonstrated in multiple ways. Having a skills bar as well as the site being a placeholder for the other websites which I have developed. (In the short run, the sites which will be used as placeholders will be the sites that was developed are exercises during the course).
+
+The user would also be able to know my journey to know where and how I started my education and career. They would also have the opportunity to view and download my CV as that would inform them more about me. The user would also be able to reach out and contact me in multiple ways in forms of social media and/or a contact form.
 
 -   ### My Objectives
 
