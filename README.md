@@ -33,8 +33,9 @@ My aim is to keep it simple and elegant with a soft colour scheme as I do not wa
     -   #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand what I am looking at and what is it telling me.
-        2. As a First Time Visitor, I want to be able to easily read and navigate around the site as well as be able to download the experience in a form of a PDF.
-        3. As a First Time Visitor, I want to be able to contact them if questions come to my head.
+        2. As a First Time Visitor, I want to be able to easily read and navigate around the site as well as be able to download developers CV in a form of a PDF.
+        3. As a First Time Visitor, I want to be see contact information easily across all the pages of the site, so it will be easy to reach out to the developer if and when i choose
+        4. As a First Time Visitor, I want to be able to contact them if questions come to my head.
 
     -   #### Returning Visitor Goals
 
@@ -91,6 +92,12 @@ The features that will be utilised in this project will be as follows:
 -   Feature 4 - Allows user to download my CV, by having my CV to be viewed and downloaded in a PDF format.
 
 -   Feature 5 - Allows user to know the areas of text entry, by having the text box highlighted when selected
+
+### Features Left to Implement
+
+-   Feature 1 - Allow users to access the website faster, by having the load time reduce.
+
+-   Feature 2 - Allow the developer to amend the website via a CMS to update the website quicker.
 
 ## Technologies Used
 
