@@ -61,10 +61,6 @@ My aim is to keep it simple and elegant with a soft colour scheme as I do not wa
     -   Home Page Wireframe (Tablet) - [View](https://github.com/)
     -   Home Page Wireframe (Mobile) - [View](https://github.com/)
 
-    -   About Me Wireframe (Web) - [View](https://github.com/)
-    -   About Me Wireframe (Tablet) - [View](https://github.com/)
-    -   About Me Wireframe (Mobile) - [View](https://github.com/)
-
     -   My Story Wireframe (Web) - [View](https://github.com/)
     -   My Story Wireframe (Tablet) - [View](https://github.com/)
     -   My Story Wireframe (Mobile) - [View](https://github.com/)
