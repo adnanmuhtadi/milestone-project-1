@@ -57,21 +57,21 @@ My aim is to keep it simple and elegant with a soft colour scheme as I do not wa
 
 *   ### Wireframes
 
-    -   Home Page Wireframe (Web) - [View](https://github.com/)
-    -   Home Page Wireframe (Tablet) - [View](https://github.com/)
-    -   Home Page Wireframe (Mobile) - [View](https://github.com/)
+    -   Home Page Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Home%20Wireframe%20(Laptop%20-%20Web).pdf)
+    -   Home Page Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Home%20Wireframe%20(Tablet).pdf)
+    -   Home Page Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Home%20Wireframe%20(Mobile).pdf)
 
-    -   My Story Wireframe (Web) - [View](https://github.com/)
-    -   My Story Wireframe (Tablet) - [View](https://github.com/)
-    -   My Story Wireframe (Mobile) - [View](https://github.com/)
+    -   My Journey Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Journey%20Wireframe%20(Laptop%20-%20Web).pdf)
+    -   My Journey Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Journey%20Wireframe%20(Tablet).pdf)
+    -   My Journey Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Journey%20Wireframe%20(Mobile).pdf)
 
-    -   Portfolio Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/Wireframes/Portfolio%20Wireframe%20(Laptop%20-%20Web).pdf)
-    -   Portfolio Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/Wireframes/Portfolio%20Wireframe%20(Tablet).pdf)
-    -   Portfolio Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/Wireframes/Portfolio%20Wireframe%20(Mobile).pdf)
+    -   Portfolio Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Portfolio%20Wireframe%20(Laptop%20-%20Web).pdf)
+    -   Portfolio Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Portfolio%20Wireframe%20(Tablet).pdf)
+    -   Portfolio Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Portfolio%20Wireframe%20(Mobile).pdf)
 
-    -   Connect Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/Wireframes/Connect%20Wireframe%20(Laptop%20-%20Web).pdf)
-    -   Connect Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/Wireframes/Connect%20Wireframe%20(Tablet).pdf)
-    -   Connect Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/Wireframes/Connect%20Wireframe%20(Mobile).pdf)
+    -   Connect Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Connect%20Wireframe%20(Laptop%20-%20Web).pdf)
+    -   Connect Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Connect%20Wireframe%20(Tablet).pdf)
+    -   Connect Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/Connect%20Wireframe%20(Mobile).pdf)
 
 ## Features
 
