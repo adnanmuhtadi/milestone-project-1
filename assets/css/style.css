@@ -18,7 +18,6 @@
     list-style-type: none;
 }
 
-
 #home,
 #navbar-menu {
     margin: 1px;
@@ -39,7 +38,15 @@
     opacity: 1;
     font-weight: 400;
     transform: scale(1.1);
-    color: #182c50;
+    color: initial;
+    text-shadow: 1px 1px 1px #000;
+    background-color: #f2f2f2;
+}
+
+.active {
+    display: block;
+    font-weight: 400;
+    transform: scale(1.1);
     text-shadow: 1px 1px 1px #000;
     background-color: #f2f2f2;
 }
@@ -91,6 +98,76 @@
     text-align: center;
 }
 
+#header {
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 55px;
+}
+
+/* ------------------------------------------------------- My Journey */
+
+.history-heading {
+    color: black;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    margin-left: 30px;
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: black;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: black;
+}
+
+.history-items {
+    margin: 30px;
+}
+
+
+/* ------------------------------------------------------- Contact form */
+
+.questions {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 400%;
+}
+
+#contactlabel {
+    padding: 3%;
+    text-align: center;
+}
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
@@ -103,9 +180,14 @@ input[type=text], textarea {
     border: 1px solid #ccc;
     border-radius: 4px;}
 
+input[type=text]:hover, textarea:hover {
+    border: 1px solid red;
+}
+
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-weight: 700
 }
 
 .labelatt {
@@ -130,7 +212,7 @@ input[type=submit] {
     float: right;
 }
 
-/* ------------------------------- Footer */
+/* ------------------------------------------------------- Footer */
 
 .footer-brief {
     background-color: #f2f2f2;
