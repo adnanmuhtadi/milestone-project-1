@@ -73,66 +73,68 @@
         <br>
         <br>
 
-<!--        -->
+        <!--   grouping the form in a seperate div to provide it with a background with each input type assoicated with a label     -->
         <div class="connect-form">
-        <div class="center-form">
+            <div class="center-form">
+                <h2 id="contactlabel">Contact Form</h2>
+                <form>
 
-            <h2 id="contactlabel">Contact Form</h2>
-            <form>
-                <div class="row">
-                    <div class="labelatt">
-                        <label for="fullname">Full Name:</label>
+                    <div class="row">
+                        <div class="labelatt">
+                            <label for="fullname">Full Name:</label>
+                        </div>
+                        <div class="textentry">
+                            <input type="text" id="fullname" name="name" required>
+                        </div>
                     </div>
-                    <div class="textentry">
-                        <input type="text" id="fullname" name="name" required>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="labelatt">
-                        <label for="email">Email Address:</label>
+                    <div class="row">
+                        <div class="labelatt">
+                            <label for="email">Email Address:</label>
+                        </div>
+                        <div class="textentry">
+                            <input type="text" id="email" name="emailaddress" required>
+                        </div>
                     </div>
-                    <div class="textentry">
-                        <input type="text" id="email" name="emailaddress" required>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="labelatt">
-                        <label for="number">Number</label>
+                    <div class="row">
+                        <div class="labelatt">
+                            <label for="number">Number</label>
+                        </div>
+                        <div class="textentry">
+                            <input type="text" id="number" name="phonenumber">
+                        </div>
                     </div>
-                    <div class="textentry">
-                        <input type="text" id="number" name="phonenumber">
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="labelatt">
-                        <label for="message">Comment:</label>
+                    <div class="row">
+                        <div class="labelatt">
+                            <label for="message">Comment:</label>
+                        </div>
+                        <div class="textentry">
+                            <textarea id="comment" name="comment"></textarea>
+                        </div>
                     </div>
-                    <div class="textentry">
-                        <textarea id="comment" name="comment"></textarea>
-                    </div>
-                </div>
-                <br>
-                <input type="submit" value="Submit">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                    <br>
+                    <input id="submit" type="submit" value="Submit">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
 
-            </form>
-        </div>
+                </form>
+            </div>
         </div>
     </section>
 
+<!--   the footer consisting off quick links, social media (icons used from font awesome and the capability to download my CV in a pdf version-->
     <footer class="footer-brief">
         <div class="row no-gutter footer-container">
 
+<!--           splitting the section focusing on the quck links -->
             <div class="col-12 col-md-4 quick-links">
 
-                    <h5 id="qlabel">Quick Links</h5>
+                <h5 id="qlabel">Quick Links</h5>
                 <div class="qlinks">
                     <a href="contact_me.html" class="foot-email">
                         <h5 id="email_address_head">Home</h5>
@@ -152,6 +154,8 @@
 
                 </div>
             </div>
+
+            <!--           splitting the section focusing on the social links -->
             <div class="col-12 col-md-4 social_links">
                 <h5 id="qlabels">Let's Connect</h5>
 
@@ -175,10 +179,10 @@
                 </div>
 
             </div>
-
+            <!--           splitting the section focusing on the CV download -->
             <div class="col-12 col-md-4">
 
-                    <h5 id="qlabels">Take A Copy Of My CV!</h5>
+                <h5 id="qlabels">Take A Copy Of My CV!</h5>
                 <a href="" target="_blank">
                     <div class="logos">
                         <i class="fas fa-file" aria-hidden="true"></i>
