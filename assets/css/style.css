@@ -117,34 +117,40 @@
 
 /* ------------------------------------------------------- My Journey */
 
+.journey {
+    margin: 30px 30px 100px 30px;
+}
 
-.timeline-item {
-    margin-left: 50%;
+.journey-item{
+    margin-left: 45%;
     padding: 4em 2em 0em 2em;
     position: relative;
     color: black;
     border-left: 1px solid;
 }
 
-.timeline-item p {
+.journey-item p {
     padding: 0;
     margin: 0;
 }
 
-.timeline-item-right:before {
+.journey-item:before {
     content: attr(data-dates);
     position: absolute;
-    left: 2.5em;
-    top: 3em;
+    left: 1.8em;
+    top: 1.5em;
     display: block;
     font-family: "Exo", sans-serif;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 1.1em;
     padding: 0;
     margin: 0;
+    background-color: red;
+    color: white;
+    padding: 4px;
 }
 
-.timeline-item-right:after {
+.journey-item:after {
     width: 12px;
     height: 12px;
     display: block;
@@ -156,35 +162,10 @@
     transform: rotate(45deg);
 }
 
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
+.journey-finisher {
+    margin: 30px 30px 120px 30px;
+    text-align: center;
 }
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    content: '';
-    background: red;
-    transform: rotate(45deg);
-}
-
-.history-items {
-    margin: 30px;
-}
-
 
 /* ------------------------------------------------------- Contact page */
 
