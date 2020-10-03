@@ -73,6 +73,14 @@
     background-size: cover;
 }
 
+#main-image2 {
+    height: 95vh;
+    width: 100vw;
+    background: url("../images/photo-1536825211030-094de935f680.jpg") no-repeat center center;
+    opacity: 0.5;
+    background-size: cover;
+}
+
 #main-image4 {
     height: 95vh;
     width: 100vw;
@@ -109,13 +117,9 @@
 
 /* ------------------------------------------------------- My Journey */
 
-.history-heading {
-    color: black;
-    margin-bottom: 50px;
-}
 
 .timeline-item {
-    margin-left: 30px;
+    margin-left: 50%;
     padding: 4em 2em 0em 2em;
     position: relative;
     color: black;
@@ -125,6 +129,31 @@
 .timeline-item p {
     padding: 0;
     margin: 0;
+}
+
+.timeline-item-right:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item-right:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    content: '';
+    background: red;
+    transform: rotate(45deg);
 }
 
 .timeline-item:before {
@@ -147,9 +176,9 @@
     top: 2.4em;
     position: absolute;
     left: -6px;
-    border-radius: 12px;
     content: '';
-    background: black;
+    background: red;
+    transform: rotate(45deg);
 }
 
 .history-items {
@@ -167,14 +196,20 @@
     color: white;
 }
 
-.connect-form {
-    background-color: #FCFCFC;
-}
-
 .questions {
     margin: 0 auto;
     text-align: center;
     line-height: 400%;
+}
+
+.connect-form {
+    background-color: #FCFCFC;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 60%;
 }
 
 #contactlabel {
@@ -182,20 +217,13 @@
     text-align: center;
 }
 
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 60%;
-
-}
-
-input[type=text], textarea {
+#fullname, #email, #number, #comment {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     border-radius: 4px;}
 
-input[type=text]:hover, textarea:hover {
+#fullname:hover, #email:hover, #number:hover, #comment:hover {
     border: 1px solid red;
 }
 
@@ -217,13 +245,12 @@ label {
     margin-top: 6px;
 }
 
-input[type=submit] {
+#submit {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
     float: right;
 }
 
