@@ -12,6 +12,15 @@
     border-color: #fed93a;
 }
 
+#home:hover {
+    transition: .2s linear;
+    opacity: 1;
+    font-weight: 400;
+    transform: scale(1.1);
+    text-shadow: 1px 1px 1px #000;
+    background-color: #f2f2f2;
+}
+
 #navbar-menu {
     margin: 0;
     font-size: 32px;
@@ -90,13 +99,11 @@
 }
 
 #main-me {
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 #main-me img {
     top: 15%;
-    left: 40%;
+    left: 37vw;
     position: absolute;
     border-radius: 50%;
 }
@@ -115,6 +122,21 @@
     font-size: 55px;
 }
 
+/* ------------------------------------------------------- Home Page Content */
+
+.about-me-section {
+    margin: 2% 7% 5% 7%;
+    object-fit: contain;
+}
+
+.about-me-section img{
+    float: right;
+}
+
+.about-me-des{
+    padding: 6% 40% 6% 5%;
+}
+
 /* ------------------------------------------------------- My Journey */
 
 .journey {
@@ -130,7 +152,7 @@
 }
 
 .journey-item p {
-    padding: 0;
+    padding: 1;
     margin: 0;
 }
 
