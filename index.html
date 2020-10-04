@@ -19,12 +19,12 @@
 
 <body>
 
-<!--        navigation bar   -->   
+    <!--        navigation bar   -->
     <header>
         <a href="index.html">
-            <h2 id="home" a href="index.html">Adnan Muhtadi</h2>
+            <h2 class="active" id="home" a href="index.html">Adnan Muhtadi</h2>
         </a>
-        
+
         <nav>
             <ul id="navbar-menu">
                 <li>
@@ -48,9 +48,9 @@
         <div id=main-image></div>
         <div id="main-me">
             <img src="assets/images/me.jpg" height="400px" width="400px">
-        
+
             <div class="main-me-text">
-               <div class="title">
+                <div class="title">
                     <h2>Project Manager / Trainee Full Stake Developer</h2>
                     <h3>Personal Portfolio</h3>
                 </div>
@@ -64,48 +64,115 @@
         <h2 id="header">About Me</h2>
 
         <!--description about myself-->
-        <div class="about-me">
+        <div class="about-me-section">
+            <img src="assets/images/photo-1538221776727-cffa3506f417.jpg" height="250" width="400px">
+
             <div class="about-me-des">
-                A versatile Product Manager professional with over 5 years’ experience with enterprise-level and consumer-focused technology solutions. Champions supportive and collaborative team environments to effectively realise business objectives with proven success in developing and implementing internal and consumer-facing IP.
+                A versatile Project Manager professional with over 5 years’ experience with enterprise-level and consumer-focused technology solutions. Champions supportive and collaborative team environments to effectively realise business objectives with proven success in developing and implementing internal and consumer-facing IP.
+
             </div>
         </div>
     </section>
 
-    <section id="interests">
-        <h2>Interests</h2>
+    <section class="interest-section">
+        <h2 id="header">Interests</h2>
         <div class="categories">
             <!--                add the categories in the necessary         -->
 
+            <div class="row">
+                <div class="column">
 
+                </div>
+
+                <div class="column">
+                    <img id="interest" src="assets/images/travelling.jpg" height="300px" width="300px">
+                </div>
+
+                <div class="column left-comment">
+                    <h2>Travelling</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column right-comment">
+                    <h2>Programming</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                </div>
+
+                <div class="column">
+                    <img id="interest" src="assets/images/programming.jpg" height="300px" width="300px">
+                </div>
+
+                <div class="column">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+
+                </div>
+
+                <div class="column">
+                    <img id="interest" src="assets/images/sports.jpg" height="300px" width="300px">
+                </div>
+
+                <div class="column left-comment">
+                    <h2>Fitness</h2>
+                    <p>Exercising and taking part in sporting activities for example rugby, swimming, boxing and going to the gym.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column right-comment">
+                    <h2>Cooking</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                </div>
+
+                <div class="column">
+                    <img id="interest" src="assets/images/cooking.jpg" height="300px" width="300px">
+                </div>
+
+                <div class="column">
+
+                </div>
+            </div>
 
         </div>
     </section>
 
+    <!--   the footer consisting off quick links, social media (icons used from font awesome and the capability to download my CV in a pdf version-->
     <footer class="footer-brief">
         <div class="row no-gutter footer-container">
 
+            <!--           splitting the section focusing on the quck links -->
             <div class="col-12 col-md-4 quick-links">
-                <a href="#" class="">
-                    <h5 id="#">Quick Links</h5>
-                </a>
+
+                <h5 id="qlabel">Quick Links</h5>
                 <div class="qlinks">
                     <a href="contact_me.html" class="foot-email">
-                        <h5 id="email_address_head"><strong>Home</strong></h5>
+                        <h5 id="email_address_head">Home</h5>
                     </a>
 
                     <a href="my_projects.html" class="foot-projects">
                         <h5 id="project_footer_head">My Journey</h5>
                     </a>
+
                     <a href="my_projects.html" class="foot-projects">
                         <h5 id="project_footer_head">Portfolio</h5>
                     </a>
+
                     <a href="my_projects.html" class="foot-projects">
                         <h5 id="project_footer_head">Connect</h5>
                     </a>
+
                 </div>
             </div>
+
+            <!--           splitting the section focusing on the social links -->
             <div class="col-12 col-md-4 social_links">
-                <h5 id="">Let's Connect</h5>
+                <h5 id="qlabels">Let's Connect</h5>
 
                 <div class="logos">
 
@@ -127,10 +194,11 @@
                 </div>
 
             </div>
-
+            <!--           splitting the section focusing on the CV download -->
             <div class="col-12 col-md-4">
-                <a href="" target="_blank">
-                    <h5>Take A Copy Of My CV!</h5>
+
+                <h5 id="qlabels">Take A Copy Of My CV!</h5>
+                <a href="assets/cv/adnan-muhtadi-cv.pdf" target="_blank">
                     <div class="logos">
                         <i class="fas fa-file" aria-hidden="true"></i>
                     </div>
