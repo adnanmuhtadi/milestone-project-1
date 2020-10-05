@@ -85,7 +85,15 @@
 #main-image2 {
     height: 95vh;
     width: 100vw;
-    background: url("../images/photo-1536825211030-094de935f680.jpg") no-repeat center center;
+    background: url("../images/journey.jpg") no-repeat center center;
+    opacity: 0.5;
+    background-size: cover;
+}
+
+#main-image3 {
+    height: 95vh;
+    width: 100vw;
+    background: url("../images/projects.jpg") no-repeat center center;
     opacity: 0.5;
     background-size: cover;
 }
@@ -93,7 +101,7 @@
 #main-image4 {
     height: 95vh;
     width: 100vw;
-    background: url("../images/ricardo-gomez-angel-D9kOnC_1AHw-unsplash.jpg") no-repeat center center;
+    background: url("../images/connect.jpg") no-repeat center center;
     opacity: 0.5;
     background-size: cover;
 }
@@ -177,7 +185,7 @@
 }
 
 .journey-item:before {
-    content: attr(data-dates);
+    content: attr(journey-dates);
     position: absolute;
     left: 1.8em;
     top: 1.5em;
