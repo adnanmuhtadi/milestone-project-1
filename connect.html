@@ -45,13 +45,17 @@
 
     <!--image header of the page with the main space defining the area and the main image is the jumbroton image -->
     <section id="main-space">
-        <div id=main-image4></div>
+        <div class="row header-section">
+            <div class="col-lg-12 main-image4">
+                <img class="main-image4" src="assets/images/connect.jpg" alt="profile backing">
 
-        <!-- the text within the main image -->
-        <div class="main-me-text">
-            <div class="connect-title">
-                <h1>No Such Thing As<br>
-                    Silly Question</h1>
+                <!-- the text within the main image -->
+                <div class="main-me-text">
+                    <div class="connect-title">
+                        <h1>No Such Thing As<br>
+                            Silly Question</h1>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -62,12 +66,10 @@
         <h2 id="header">A Few Ways To Reach Out!</h2>
 
         <!-- the questions to bring the users attention-->
-        <div class="main-content">
-            <div class="questions">
-                Looking to ask a question?<br>
-                Looking to know more about me? <br>
-                or even looking for an idea to be developed?
-            </div>
+        <div class="main-content questions">
+            Looking to ask a question?<br>
+            Looking to know more about me? <br>
+            or even looking for an idea to be developed?
         </div>
         <br>
         <br>
@@ -76,52 +78,54 @@
         <div class="connect-form">
             <div class="center-form">
                 <h2 id="contactlabel">Contact Form</h2>
+
                 <form>
-
-                    <div class="row">
-                        <div class="labelatt">
-                            <label for="fullname">Full Name:</label>
+                    <div class="form-group row">
+                        <div class="col-md-3 col-sm-2 col-form-label labelatt">
+                            <label for="full-name">Full Name:</label>
                         </div>
-                        <div class="textentry">
-                            <input type="text" id="fullname" name="name" required>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="labelatt">
-                            <label for="email">Email Address:</label>
-                        </div>
-                        <div class="textentry">
-                            <input type="text" id="email" name="emailaddress" required>
+                        <div class="col-md-9 col-sm-10">
+                            <input type="text" class="form-control" id="user-fullname">
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="labelatt">
-                            <label for="number">Number</label>
+                    <div class="form-group row">
+                        <div class="col-md-3 col-sm-2 col-form-label labelatt">
+                            <label for="user-email">Email Address:</label>
                         </div>
-                        <div class="textentry">
-                            <input type="text" id="number" name="phonenumber">
+                        <div class="col-md-9 col-sm-10">
+                            <input type="email" class="form-control" id="user-email">
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="labelatt">
-                            <label for="message">Comment:</label>
+                    <div class="form-group row">
+                        <div class="col-md-3 col-sm-2 col-form-label labelatt">
+                            <label for="user-number">Number:</label>
                         </div>
-                        <div class="textentry">
-                            <textarea id="comment" name="comment"></textarea>
+                        <div class="col-md-9 col-sm-10">
+                            <input type="tel" class="form-control" id="user-number">
                         </div>
                     </div>
-                    <br>
-                    <input id="submit" type="submit" value="Submit">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
 
+                    <div class="form-group row">
+                        <div class="col-md-3 col-sm-2 col-form-label labelatt">
+                            <label for="user-message">Message:</label>
+                        </div>
+                        <div class="col-md-9 col-sm-10">
+                            <textarea class="form-control" id="user-message" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <br>
+                    <input id="submit" type="button" value="Submit">
                 </form>
+                <br>
+                <br>
+
+                <br>
+                <br>
+                <br>
+
             </div>
         </div>
     </section>
@@ -133,7 +137,7 @@
             <!--splitting the section focusing on the quck links -->
             <div class="col-12 col-md-4 quick-links">
 
-                <h5 id="qlabel">Quick Links</h5>
+                <h5 id="qlabels">Quick Links</h5>
                 <div class="qlinks">
                     <a href="contact_me.html" class="foot-email">
                         <h5 id="email_address_head">Home</h5>

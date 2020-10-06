@@ -25,7 +25,6 @@
     margin: 0;
     font-size: 32px;
     list-style-type: none;
-
 }
 
 #home,
@@ -74,39 +73,23 @@
     position: relative;
 }
 
-#main-image {
+.main-image img,
+.main-image2 img,
+.main-image3 img,
+.main-image4 img{
     height: 95vh;
     width: 100vw;
-    background: url("../images/photo-1587620962725-abab7fe55159.jpg") no-repeat center center;
     opacity: 0.5;
     background-size: cover;
 }
 
-#main-image2 {
-    height: 95vh;
-    width: 100vw;
-    background: url("../images/journey.jpg") no-repeat center center;
-    opacity: 0.5;
-    background-size: cover;
+.profile-pic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 100px;
 }
-
-#main-image3 {
-    height: 95vh;
-    width: 100vw;
-    background: url("../images/projects.jpg") no-repeat center center;
-    opacity: 0.5;
-    background-size: cover;
-}
-
-#main-image4 {
-    height: 95vh;
-    width: 100vw;
-    background: url("../images/connect.jpg") no-repeat center center;
-    opacity: 0.5;
-    background-size: cover;
-}
-
-#main-me {}
 
 #main-me img {
     top: 15%;
@@ -240,7 +223,7 @@
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 70%;
 }
 
 #contactlabel {
@@ -248,40 +231,21 @@
     text-align: center;
 }
 
-#fullname,
-#email,
-#number,
-#comment {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #000;
-    border-radius: 4px;
-}
-
-#fullname:hover,
-#email:hover,
-#number:hover,
-#comment:hover {
+#user-fullname:hover,
+#user-email:hover,
+#user-number:hover,
+#user-message:hover {
     border: 1px solid red;
 }
 
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-    font-weight: 700
-}
-
 .labelatt {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
+    font-weight: 600;
 }
 
-.textentry {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+.form-control {
+    border: 1px solid pink;
 }
+
 
 #submit {
     background-color: #4CAF50;
@@ -302,12 +266,6 @@ label {
 .logos {
     font-size: 40px;
     text-align: center;
-}
-
-#qlabel {
-    font-size: 25px;
-    padding-bottom: 20px;
-    font-weight: 700;
 }
 
 #qlabels {
@@ -331,3 +289,66 @@ label {
 .qlinks {
     column-count: 2;
 }
+
+@media only screen and (max-width: 768px) {
+
+    /* ------------------------------------------------------- global styling */
+
+    #home {
+        font-size: 150%;
+        padding-left: 10px;
+    }
+
+    #navbar-menu {
+        font-size: 22px;
+    }
+
+    #home,
+    #navbar-menu {
+        line-height: 40px;
+    }
+
+    #navbar-menu li {
+        margin-right: 20px;
+    }
+
+    #main-space {
+    height: 100%
+    }
+
+    .main-image img,
+    .main-image2 img,
+    .main-image3 img,
+    .main-image4 img{
+        height: inherit;
+        width: inherit;
+    }
+
+
+
+    /* ------------------------------------------------------- Connect Page */
+
+    #header {
+        padding: auto;
+        font-size: 40px;
+    }
+
+    .center-form {
+        max-width: 80%;
+    }
+
+    .questions {
+        line-height: 200%;
+    }
+
+    /* ------------------------------------------------------- Footer */
+
+    .logos {
+        font-size: 23px;
+    }
+
+    #qlabels {
+        font-size: 20px;
+    }
+
+    }
