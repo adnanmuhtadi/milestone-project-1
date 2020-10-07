@@ -1,69 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Adnan Muhtadi Portfolio</title>
-
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-
-    <!-- font awesome for icons -->
-    <script src="https://kit.fontawesome.com/9b32562ec0.js" crossorigin="anonymous"></script>
-
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
 </head>
 
 <body>
+    <!--        navigation bar with the active class when on the actual page  -->
+    <nav>
+        <div class="row nav-section">
+            <div class="col-lg-4 mainhome">
+                <h1><a href="index.html">Adnan Muhtadi</a></h1>
+            </div>
 
-    <!--navigation bar with the active class when on the actual page  -->
-    <header>
-        <a href="index.html">
-            <h2 id="home" a href="index.html">Adnan Muhtadi</h2>
-        </a>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
 
-        <nav>
-            <ul id="navbar-menu">
-                <li>
-                    <a class="active" href="connect.html">Connect</a>
-                </li>
+            <div class="col-lg-2 right">
+                <h2><a href="journey.html">My Journey</a></h2>
+            </div>
 
-                <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
+            <div class="col-lg-2 right">
+                <h2><a href="portfolio.html">My Portfolio</a></h2>
+            </div>
 
-                <li>
-                    <a href="journey.html">My Journey</a>
-                </li>
+            <div class="col-lg-2 active right">
+                <h2><a href="connect.html">Connect</a></h2>
+            </div>
+        </div>
+    </nav>
 
-            </ul>
-        </nav>
-    </header>
 
     <!--image header of the page with the main space defining the area and the main image is the jumbroton image -->
-    <section id="main-space">
-        <div class="row header-section">
-            <div class="col-lg-12 main-image4">
-                <img class="main-image4" src="assets/images/connect.jpg" alt="profile backing">
+    <header>
+        <div class="row no-gutter header-section">
+            <div class="col-lg-12 bg-image4"></div>
 
-                <!-- the text within the main image -->
-                <div class="main-me-text">
-                    <div class="connect-title">
-                        <h1>No Such Thing As<br>
-                            Silly Question</h1>
-                    </div>
+            <!-- the text within the main image -->
+            <div class="main-me-text">
+                <div class="connect-title">
+                    <h1>No Such Thing As<br>
+                        A Silly Question</h1>
                 </div>
             </div>
         </div>
-
-    </section>
+    </header>
 
     <!-- The body of the content displayed which is for the questoin and contact form -->
     <section id="content">
-        <h2 id="header">A Few Ways To Reach Out!</h2>
+        <h2 class="title">A Few Ways To Reach Out!</h2>
 
         <!-- the questions to bring the users attention-->
         <div class="main-content questions">
@@ -131,68 +121,57 @@
     </section>
 
     <!--the footer consisting off quick links, social media (icons used from font awesome and the capability to download my CV in a pdf version-->
-    <footer class="footer-brief">
-        <div class="row no-gutter footer-container">
-
-            <!--splitting the section focusing on the quck links -->
-            <div class="col-12 col-md-4 quick-links">
-
-                <h5 id="qlabels">Quick Links</h5>
-                <div class="qlinks">
-                    <a href="contact_me.html" class="foot-email">
-                        <h5 id="email_address_head">Home</h5>
-                    </a>
-
-                    <a href="my_projects.html" class="foot-projects">
-                        <h5 id="project_footer_head">My Journey</h5>
-                    </a>
-
-                    <a href="my_projects.html" class="foot-projects">
-                        <h5 id="project_footer_head">Portfolio</h5>
-                    </a>
-
-                    <a href="my_projects.html" class="foot-projects">
-                        <h5 id="project_footer_head">Connect</h5>
-                    </a>
-
-                </div>
-            </div>
-
-            <!--splitting the section focusing on the social links using the icons from font awesome-->
-            <div class="col-12 col-md-4 social_links">
-                <h5 id="qlabels">Let's Connect</h5>
-
-                <div class="logos">
-
-                    <a href="https://www.facebook.com/adnan.muhtadi/" target="_blank"><i class="fab fa-facebook"></i></a>
-
-                    <a href="https://www.instagram.com/adnanmuhtadi/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-
-                    <a href="https://twitter.com/adnanmuhtadi" target="_blank"><i class="fab fa-twitter"></i></a>
-
-                    <a href="https://www.youtube.com/channel/UCt64hh9dMACG43Vuzc5DrtQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
-
-                    <a href="https://www.linkedin.com/in/adnan-muhtadi-3588243b/" target="_blank"><i class="fab fa-linkedin"></i></a>
-
-                    <a href="https://www.snapchat.com/l/en-gb/" target="_blank"><i class="fab fa-snapchat"></i></a>
-
-                    <a href="https://www.pinterest.co.uk/adnanmuhtadi/_saved/" target="_blank"><i class="fab fa-pinterest"></i></a>
-
-                    <a href="https://github.com/adnanmuhtadi" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-
-            </div>
-            <!--splitting the section focusing on the CV download -->
-            <div class="col-12 col-md-4">
-
-                <h5 id="qlabels">Take A Copy Of My CV!</h5>
-                <a href="assets/cv/adnan-muhtadi-cv.pdf" target="_blank">
-                    <div class="logos">
-                        <i class="fas fa-file" aria-hidden="true"></i>
+    <footer>
+        <div class="footer-section">
+            <div class="row">
+                <div class="col-lg-4 quicklinks">
+                    <h4>Quick Links</h4>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="#">Home</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="#">Portfolio</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="#">My Journey</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="#">Connect</a>
+                        </div>
                     </div>
-                </a>
+
+                </div>
+
+                <div class="col-lg-4 connect">
+                    <h4>Lets Connect</h4>
+                    <div class="social-logos">
+                        <a href="https://www.facebook.com/adnan.muhtadi/" target="_blank"><i class="fab fa-facebook"></i></a>
+
+                        <a href="https://www.instagram.com/adnanmuhtadi/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                        <a href="https://twitter.com/adnanmuhtadi" target="_blank"><i class="fab fa-twitter"></i></a>
+
+                        <a href="https://www.youtube.com/channel/UCt64hh9dMACG43Vuzc5DrtQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
+
+                        <a href="https://www.linkedin.com/in/adnan-muhtadi-3588243b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                        <a href="https://www.snapchat.com/l/en-gb/" target="_blank"><i class="fab fa-snapchat"></i></a>
+
+                        <a href="https://www.pinterest.co.uk/adnanmuhtadi/_saved/" target="_blank"><i class="fab fa-pinterest"></i></a>
+
+                        <a href="https://github.com/adnanmuhtadi" target="_blank"><i class="fab fa-github"></i></a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mycv">
+                    <h4>Take A Copy Of My CV!</h4>
+                    <a href="assets/cv/adnan-muhtadi-cv.pdf" target="_blank"><i class="fas fa-file" aria-hidden="true"></i></a>
+                </div>
             </div>
         </div>
+
     </footer>
 
 </body>
