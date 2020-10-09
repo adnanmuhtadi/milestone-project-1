@@ -142,20 +142,48 @@ h3 {
 
 /*---------------------Journey Page*/
 .skill-label {
-    padding: 0 10px;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .progress {
-    margin: 10px;
+    margin: 10px 20px;
     height: 2rem;
+    width: 130%;
+    font-size: 15px;
 }
 
-.html5 {
-    background-color: red;
+.html5, .office{
+    background-color: #00cc00;
 }
 
-.journey {
-    margin: 30px 30px 100px 30px;
+.java, .pm {
+    background-color: #1a75ff;
+}
+
+.sql, .jira {
+    background-color: #ff471a;
+}
+
+.python, .github {
+    background-color: #000000;
+}
+
+.php, arabic {
+    background-color: #00802b;
+}
+
+.zendesk {
+    background-color: #000099;
+}
+
+.servicenow {
+    background-color: #b32d00;
+}
+
+.product {
+    background-color: #000000;
 }
 
 .journey-item {
@@ -211,7 +239,7 @@ h3 {
     left: 5%;
     position: absolute;
     text-align: center;
-    color: white;
+    color: #000000;
 }
 
 .questions {
@@ -239,15 +267,11 @@ h3 {
 #user-email:hover,
 #user-number:hover,
 #user-message:hover {
-    border: 1px solid red;
+    border: 1px solid #FF0000;
 }
 
 .labelatt {
     font-weight: 600;
-}
-
-.form-control {
-    border: 1px solid pink;
 }
 
 
@@ -297,4 +321,8 @@ h3 {
 .fa-file {
     font-size: 40px;
     padding-top: 10px;
+}
+
+@media only screen and (max-width: 425px){
+    
 }
