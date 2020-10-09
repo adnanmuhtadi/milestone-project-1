@@ -12,7 +12,7 @@
 .nav-section {
     background-color: #ffffff;
     min-height: 50px;
-    margin-top: 15px;
+    margin-top: 5px;
     padding-bottom: 5px;
     border-bottom: 2px solid #000000;
 }
@@ -26,7 +26,9 @@
 }
 
 .nav-section h2 {
+    padding-top: 10px;
     text-align: center;
+    font-size: 150%;
 }
 
 .nav-section a {
@@ -58,6 +60,7 @@
     position: absolute;
     opacity: 0.5;
     width: 100vw;
+    height: 95vh;
 }
 
 .profile-pic {
@@ -76,7 +79,7 @@
     position: absolute;
     opacity: 0.5;
     width: 100vw;
-}
+    height: 95vh;}
 
 .bg-image4 {
     background-image: url(../images/connect.jpg);
@@ -86,6 +89,7 @@
     position: absolute;
     opacity: 0.5;
     width: 100vw;
+    height: 95vh;
 }
 
 .header-section h2,
@@ -108,7 +112,7 @@ h3 {
 
 /*--------------------------------Index Main Section*/
 .main-section {
-    margin: 2% 7% 5% 7%;
+    margin: 7% 7% 5% 7%;
     object-fit: contain;
 }
 
@@ -276,6 +280,7 @@ arabic {
 #user-fullname:hover,
 #user-email:hover,
 #user-number:hover,
+#user-number:hover,
 #user-message:hover {
     border: 1px solid #FF0000;
 }
@@ -348,7 +353,7 @@ arabic {
         padding: 20px;
         margin: auto;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     /*-----------------------navigation bar*/
@@ -389,11 +394,12 @@ arabic {
     .bg-image3,
     .bg-image4 {
         background-size: contain;
+        height: 50px;
     }
     
     /*-----------------------index main section*/
     .main-section {
-        margin: 3% 0;
+        margin: 10% 0;
     }
 
     .aboutme p{
@@ -401,6 +407,7 @@ arabic {
     }
     
     .interests h2 {
+        font-size: 150%;
         text-align: center;
     }
     
@@ -426,6 +433,56 @@ arabic {
         padding: 10px 15px;
     }
     
+    .progress-skills {
+        display: none;
+    }
+
+    .journey-item {
+        padding: 4em 2em 0em 2em;
+    }
+
+    .journey-item h4 {
+        font-size: 18px;
+    }
+
+    .journey-item p {
+        font-size: 13px;
+    }
+
+    .journey-item:before {
+        content: attr(journey-dates);
+        position: absolute;
+        left: 1.8em;
+        top: 2em;
+        display: block;
+        font-family: "Exo", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        background-color: red;
+        color: white;
+        padding: 4px;
+    }
+
+    .journey-item:after {
+        width: 12px;
+        height: 12px;
+        display: block;
+        top: 2.4em;
+        position: absolute;
+        content: '';
+        background: red;
+        transform: rotate(45deg);
+    }
+
+    .connect-title,
+    .connect-title h1{
+        top: 25%;
+        left: 3%;
+        font-size: 20px;
+    }
+
     /*-----------------------footer*/
     .quicklinks,
     .quicklinks h4{
