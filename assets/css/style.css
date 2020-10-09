@@ -36,7 +36,7 @@
 
 .active,
 .mainhome:hover,
-.right:hover{
+.right:hover {
     color: black;
     opacity: 1;
     display: block;
@@ -60,6 +60,14 @@
     width: 100vw;
 }
 
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
 .bg-image2 {
     background-image: url(../images/journey.jpg);
     background-repeat: no-repeat;
@@ -78,14 +86,6 @@
     position: absolute;
     opacity: 0.5;
     width: 100vw;
-}
-
-.profile-pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    margin-top: 100px;
 }
 
 .header-section h2,
@@ -117,7 +117,7 @@ h3 {
     width: 100%;
 }
 
-.aboutme p{
+.aboutme p {
     padding: 6% 0% 6% 5%;
 }
 
@@ -140,6 +140,11 @@ h3 {
     padding: 100px 0px;
 }
 
+.left-travelhidden, 
+.left-fitnesshidden{
+    visibility: hidden;
+}
+
 /*---------------------Journey Page*/
 .skill-label {
     padding: 0 20px;
@@ -154,23 +159,28 @@ h3 {
     font-size: 15px;
 }
 
-.html5, .office{
+.html5,
+.office {
     background-color: #00cc00;
 }
 
-.java, .pm {
+.java,
+.pm {
     background-color: #1a75ff;
 }
 
-.sql, .jira {
+.sql,
+.jira {
     background-color: #ff471a;
 }
 
-.python, .github {
+.python,
+.github {
     background-color: #000000;
 }
 
-.php, arabic {
+.php,
+arabic {
     background-color: #00802b;
 }
 
@@ -291,12 +301,12 @@ h3 {
     padding-top: 5px;
 }
 
-.footer-section a{
+.footer-section a {
     text-decoration: none;
     color: #000000;
 }
 
-.footer-section a:hover{
+.footer-section a:hover {
     transform: scale(1.1);
     color: #000000;
     text-shadow: 1px 1px 1px #676767;
@@ -323,6 +333,112 @@ h3 {
     padding-top: 10px;
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
     
+    .title {
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    /*-----------------------navigation bar*/
+    .mainhome,
+    .right {
+        padding: 0;
+    }
+
+    .nav-section h1 {
+        font-size: 150%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .nav-section h2 {
+        text-align: center;
+        font-size: 125%;
+        padding: 0;
+    }
+
+    /*-----------------------header section*/
+    
+    .header-section {
+        min-height: 250px;
+    }
+    
+    .profile-pic {
+        margin-top: 5%;
+        width: 25%;
+    }
+    
+    .header-section h2,h3 {
+        font-size: 110%
+    }
+
+    .bg-image1,
+    .bg-image2,
+    .bg-image3,
+    .bg-image4 {
+        background-size: contain;
+    }
+    
+    /*-----------------------index main section*/
+    .main-section {
+        margin: 3% 0;
+    }
+
+    .aboutme p{
+        padding: 1% 0;
+    }
+    
+    .interests h2 {
+        text-align: center;
+    }
+    
+    .left-travelhidden,
+    .left-fitnesshidden {
+        visibility: visible;
+    }
+    
+    .travel-info,
+    .fitness-info{
+        display: none;
+    }
+
+    .plane-img,
+    .laptop-img,
+    .fitness-img,
+    .cooking-img {
+        padding: 10px 0 40px 0;
+    }
+
+    .programming-info,
+    .cooking-info {
+        padding: 10px 15px;
+    }
+    
+    /*-----------------------footer*/
+    .quicklinks,
+    .quicklinks h4{
+        text-align: center;
+    }
+    
+    .connect {
+        padding: 30px 0;
+    }
+    
+    
+    .social-logos {
+        padding: 10px 0;
+    }
+
 }
