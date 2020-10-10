@@ -6,6 +6,7 @@
 
 .row {
     margin: 0;
+    padding: 0;
 }
 
 /*--------------------------Navigation Section*/
@@ -79,7 +80,8 @@
     position: absolute;
     opacity: 0.5;
     width: 100vw;
-    height: 95vh;}
+    height: 95vh;
+}
 
 .bg-image4 {
     background-image: url(../images/connect.jpg);
@@ -242,7 +244,7 @@ arabic {
 }
 
 .journey-finisher {
-    margin: 30px 30px 120px 30px;
+    margin: 50px 30px 80px 30px;
     text-align: center;
 }
 
@@ -347,6 +349,7 @@ arabic {
 
     .row {
         margin: 0;
+        padding: 0;
     }
     
     .title {
@@ -382,7 +385,7 @@ arabic {
     
     .profile-pic {
         margin-top: 5%;
-        width: 25%;
+        width: 40%;
     }
     
     .header-section h2,h3 {
@@ -394,7 +397,6 @@ arabic {
     .bg-image3,
     .bg-image4 {
         background-size: contain;
-        height: 50px;
     }
     
     /*-----------------------index main section*/
@@ -474,6 +476,10 @@ arabic {
         content: '';
         background: red;
         transform: rotate(45deg);
+    }
+
+    .journey-finisher {
+        margin: 50px 0 80px 0;
     }
 
     .connect-title,
