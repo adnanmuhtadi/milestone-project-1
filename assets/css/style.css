@@ -83,6 +83,17 @@
     height: 95vh;
 }
 
+.bg-image3 {
+    background-image: url(../images/projects.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    position: absolute;
+    opacity: 0.5;
+    width: 100vw;
+    height: 95vh;
+}
+
 .bg-image4 {
     background-image: url(../images/connect.jpg);
     background-repeat: no-repeat;
@@ -247,6 +258,28 @@ arabic {
     margin: 50px 30px 80px 30px;
     text-align: center;
 }
+
+/*--------------------------------Projects Page*/
+
+.card {
+    border: 1px solid #000000;
+}
+
+.timage {
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    height: 200px;
+}
+
+
+.timage2 {
+    background-image: url(../images/stream.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
 
 /*--------------------------------Connect Page*/
 
