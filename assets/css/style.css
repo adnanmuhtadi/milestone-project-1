@@ -340,6 +340,168 @@ arabic {
     padding-top: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+
+    .maintitle {
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    /*-----------------------navigation bar*/
+    .mainhome,
+    .right {
+        padding: 0;
+    }
+
+    .nav-section h1 {
+        font-size: 150%;
+        text-align: left;
+        padding: 10px 30px;
+    }
+
+    .nav-section h2 {
+        text-align: center;
+        font-size: 95%;
+        padding: 15px 10px 0px 10px;
+    }
+
+    /*-----------------------header section*/
+
+    .header-section {
+        min-height: 250px;
+    }
+
+    .profile-pic {
+        margin-top: 5%;
+        width: 40%;
+    }
+
+    .header-section h2,h3 {
+        font-size: 150%
+    }
+
+    .bg-image1,
+    .bg-image2,
+    .bg-image3,
+    .bg-image4 {
+        background-size: contain;
+        max-height: 100px;
+    }
+
+    /*-----------------------index main section*/
+    .main-section {
+        margin: 35% 0 10% 0;
+    }
+
+    .aboutme p{
+        padding: 1% 0%;
+    }
+
+    .interests h2 {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .interests p {
+        margin: 0 3%;
+    }
+
+    .travel-info,
+    .programming-info,
+    .fitness-info,
+    .cooking-info {
+        padding: 65px 0px;
+    }
+
+    .left-travelhidden,
+    .left-fitnesshidden{
+        display: none;
+    }
+
+    /*-----------------------Journey section*/
+
+    .progress-skills {
+        display: none;
+    }
+
+    .journey-item {
+        padding: 4em 2em 0em 2em;
+    }
+
+    .journey-item h4 {
+        font-size: 18px;
+    }
+
+    .journey-item p {
+        font-size: 13px;
+    }
+
+    .journey-item:before {
+        content: attr(journey-dates);
+        position: absolute;
+        left: 1.8em;
+        top: 2em;
+        display: block;
+        font-family: "Exo", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        background-color: red;
+        color: white;
+        padding: 4px;
+    }
+
+    .journey-item:after {
+        width: 12px;
+        height: 12px;
+        display: block;
+        top: 2.4em;
+        position: absolute;
+        content: '';
+        background: red;
+        transform: rotate(45deg);
+    }
+
+    .journey-finisher {
+        margin: 50px 0 80px 0;
+    }
+
+    .connect-title,
+    .connect-title h1{
+        top: 25%;
+        left: 3%;
+        font-size: 20px;
+    }
+
+    /*-----------------------footer*/
+    .quicklinks,
+    .quicklinks h4{
+        text-align: center;
+    }
+
+    .connect {
+        padding: 30px 0;
+    }
+
+
+    .social-logos {
+        padding: 10px 0;
+    }
+
+}
+
 @media only screen and (max-width: 425px) {
     * {
         margin: 0;
