@@ -18,12 +18,13 @@
     border-bottom: 2px solid #000000;
 }
 
-.nav-section h1 {
+#myname {
     font-size: 280%;
     margin-left: 10px;
     color: #606060;
     border-color: #fed93a;
-    padding-left: 10px;
+    padding-left:
+        10px;
 }
 
 .nav-section h2 {
@@ -222,12 +223,12 @@ arabic {
 }
 
 .journey-item p {
-    padding: 1;
+    padding: 1px;
     margin: 0;
 }
 
 .journey-item:before {
-    content: attr(journey-dates);
+    content: attr(data-journeydates);
     position: absolute;
     left: 1.8em;
     top: 1.5em;
