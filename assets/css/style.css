@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,10 @@
 .row {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------Navigation Section*/
@@ -30,6 +36,7 @@
     padding-top: 20px;
     text-align: center;
     font-size: 25px;
+    font-family: "poppins",sans-serif;
 }
 
 .nav-section a {
@@ -44,6 +51,7 @@
     opacity: 1;
     display: block;
     font-weight: 500;
+    font-family: "Montserrat", sans-serif;
     text-decoration: underline;
     text-shadow: 1px 1px 1px #000000;
 }
@@ -728,6 +736,9 @@ arabic {
         padding: 30px 0;
     }
 
+    .connect-title {
+        padding-top: 90px;
+    }
 
     .social-logos {
         padding: 10px 0;
