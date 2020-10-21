@@ -23,12 +23,11 @@
     margin-left: 10px;
     color: #606060;
     border-color: #fed93a;
-    padding-left:
-        10px;
+    padding-left: 10px;
 }
 
-.nav-section h2 {
-    padding-top: 10px;
+.right h2 {
+    padding-top: 20px;
     text-align: center;
     font-size: 150%;
 }
@@ -256,7 +255,7 @@ arabic {
 }
 
 .journey-finisher {
-    margin: 50px 30px 80px 30px;
+    margin: 50px 30px 20px 30px;
     text-align: center;
 }
 
