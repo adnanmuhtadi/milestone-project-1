@@ -582,16 +582,6 @@ arabic {
 }
 
 @media only screen and (max-width: 425px) {
-    * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-
-    .row {
-        margin: 0;
-        padding: 0;
-    }
 
     .title {
         padding: 20px;
@@ -601,37 +591,24 @@ arabic {
     }
 
     /*-----------------------navigation bar*/
-    .mainhome,
-    .right {
-        padding: 0;
-    }
 
-    .nav-section h1 {
+    #myname {
         font-size: 150%;
         text-align: center;
         padding: 0;
+
     }
 
-    .nav-section h2 {
+    .right h2 {
+        padding-top: 20px;
         text-align: center;
-        font-size: 90%;
-        padding-top: 10px;
-    }
+        font-size: 90%;    }
 
     /*-----------------------header section*/
 
-    .header-section {
-        min-height: 250px;
-    }
-
-    .profile-pic1 {
-        top: -10px;
-        text-align: center;
-    }
-
     .profile-pic2 {
-        width: 40%;
-        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .header-section h2,
