@@ -496,7 +496,7 @@ arabic {
     }
 
     .journey-item:before {
-        content: attr(journey-dates);
+        content: attr(data-journeydates);
         position: absolute;
         left: 1.8em;
         top: 2em;
@@ -516,6 +516,7 @@ arabic {
         height: 12px;
         display: block;
         top: 2.4em;
+        content: '';
         position: absolute;
         background: red;
         transform: rotate(45deg);
@@ -678,7 +679,7 @@ arabic {
     }
 
     .journey-item:before {
-        content: attr(journey-dates);
+        content: attr(data-journeydates);
         position: absolute;
         left: 1.8em;
         top: 2em;
