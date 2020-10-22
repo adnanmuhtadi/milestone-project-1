@@ -15,7 +15,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/*--------------------------Navigation Section*/
+/*------------------------------ Navigation Section*/
 .nav-section {
     background-color: #ffffff;
     min-height: 50px;
@@ -30,13 +30,14 @@ body {
     color: #606060;
     border-color: #fed93a;
     padding-left: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .right h2 {
     padding-top: 20px;
     text-align: center;
     font-size: 25px;
-    font-family: "poppins",sans-serif;
+    font-family: "Montserrat",sans-serif;
 }
 
 .nav-section a {
@@ -56,7 +57,7 @@ body {
     text-shadow: 1px 1px 1px #000000;
 }
 
-/*------------------------------Header Section*/
+/*------------------------------ Header Section*/
 .header-section {
     min-height: 750px;
 }
@@ -128,10 +129,10 @@ h3 {
     margin: auto;
     text-align: center;
     font-size: 55px;
+    font-family: "Montserrat", sans-serif;
 }
 
-
-/*--------------------------------Index Main Section*/
+/*------------------------------ Index Main Section*/
 .main-section {
     margin: 7% 7% 5% 7%;
     object-fit: contain;
@@ -144,6 +145,10 @@ h3 {
 
 .aboutme p {
     padding: 6% 0% 6% 5%;
+}
+
+.interests h2 {
+    font-family:"Montserrat", sans-serif;
 }
 
 .plane-img,
@@ -170,7 +175,7 @@ h3 {
     visibility: hidden;
 }
 
-/*---------------------Journey Page*/
+/*------------------------------ Journey Page*/
 .skill-label {
     padding: 0 20px;
     font-weight: 500;
@@ -240,14 +245,13 @@ arabic {
     left: 1.8em;
     top: 1.5em;
     display: block;
-    font-family: "Exo", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 1.1em;
-    padding: 0;
+    padding: 4px;
     margin: 0;
     background-color: red;
     color: white;
-    padding: 4px;
 }
 
 .journey-item:after {
@@ -267,8 +271,7 @@ arabic {
     text-align: center;
 }
 
-/*--------------------------------Projects Page*/
-
+/*------------------------------ Projects Page*/
 .card {
     border: 1px solid #000000;
     height: 425px;
@@ -276,6 +279,8 @@ arabic {
 
 .projects p {
     padding: 1% 0% 6% 5%;
+    text-align: center;
+    font-size: 20px;
 }
 
 .timage {
@@ -286,6 +291,7 @@ arabic {
 
 .container-thumb {
     padding: 10px;
+    font-size: 15px;
 }
 
 .visitme {
@@ -299,14 +305,14 @@ arabic {
     font-weight: 700;
 }
 
-/*--------------------------------Connect Page*/
-
+/*------------------------------ Connect Page*/
 .connect-title {
     top: 37%;
     left: 5%;
     position: absolute;
     text-align: center;
     color: #000000;
+    font-family: "Montserrat", sans-serif;
 }
 
 .questions {
@@ -357,6 +363,8 @@ arabic {
     min-height: 150px;
     background-color: #f2f2f2;
     padding-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 .footer-section a {
@@ -372,17 +380,20 @@ arabic {
 
 .quicklinks h4 {
     text-align: left;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
 }
 
-.connect {
+.connect h4,
+.mycv h4{
+    font-family: "Montserrat", sans-serif;
     text-align: center;
+    font-weight: 700;
 }
 
-.social-logos {
+.social-logos,
+.mycv{
     font-size: 40px;
-}
-
-.mycv {
     text-align: center;
 }
 
@@ -391,25 +402,16 @@ arabic {
     padding-top: 10px;
 }
 
+/*------------------------------ Media Query for tablet size device in a vertical format */
 @media only screen and (max-width: 768px) {
-    * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
 
-    .row {
-        margin: 0;
-        padding: 0;
-    }
-
+    /*------------------------------ navigation bar*/
     #myname {
         padding: 20px;
         text-align: center;
         font-size: 30px;
     }
 
-    /*-----------------------navigation bar*/
     #myname,
     .right {
         margin: 0;
@@ -422,8 +424,7 @@ arabic {
         padding: 15px 10px 0px 10px;
     }
 
-    /*-----------------------header section*/
-
+    /*------------------------------ header section*/
     .header-section {
         min-height: 250px;
     }
@@ -435,9 +436,6 @@ arabic {
     .profile-pic2 {
         margin-top: 50px;
         width: 40%;
-        border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .header-section h2,
@@ -453,7 +451,7 @@ arabic {
         max-height: 100px;
     }
 
-    /*-----------------------index main section*/
+    /*------------------------------ index main section*/
     .main-section {
         margin: 35% 0 10% 0;
     }
@@ -483,8 +481,7 @@ arabic {
         display: none;
     }
 
-    /*-----------------------Journey section*/
-
+    /*------------------------------ Journey section*/
     .progress-skills {
         display: none;
     }
@@ -506,41 +503,19 @@ arabic {
     }
 
     .journey-item:before {
-        content: attr(data-journeydates);
-        position: absolute;
         left: 1.8em;
         top: 2em;
-        display: block;
-        font-family: "Exo", sans-serif;
-        font-weight: 500;
         font-size: 15px;
-        padding: 0;
-        margin: 0;
-        background-color: red;
-        color: white;
-        padding: 4px;
-    }
-
-    .journey-item:after {
-        width: 12px;
-        height: 12px;
-        display: block;
-        top: 2.4em;
-        content: '';
-        position: absolute;
-        background: red;
-        transform: rotate(45deg);
     }
 
     .journey-finisher {
         margin: 50px 0 80px 0;
     }
 
-    /*-----------------------portfolio Section */
+    /*------------------------------ Portfolio Section */
     .projects p {
         margin: 0;
     }
-
 
     .card {
         margin: 20px;
@@ -550,7 +525,11 @@ arabic {
         font-size: 15px;
     }
 
-    /*-----------------------Connect Section*/
+    /*------------------------------ Connect Section*/
+    .center-form {
+        max-width: 90%;
+    }
+
     .connect-title,
     .connect-title h1 {
         top: 25%;
@@ -559,36 +538,32 @@ arabic {
     }
 
     /*-----------------------footer*/
-    .quicklinks h4,
-    .connect h4,
-    .mycv h4 {
-        text-align: center;
-        font-size: 20px;
+    .footer-section {
+        padding: 15px 0;
     }
 
     .quicklinks a {
         font-size: 15px;
     }
 
-    .footer-section {
-        padding: 15px 0;
+    .quicklinks h4,
+    .connect h4,
+    .mycv h4 {
+        font-size: 20px;
     }
 
-
     .social-logos {
-        padding: 30px 0;
+        padding: 40px 0;
         font-size: 25px;
     }
 
     .cv {
-        padding: 14px;
         font-size: 25px;
     }
-
 }
 
+/*------------------------------ Media Query for mobile phone size device in a vertical format */
 @media only screen and (max-width: 425px) {
-
     .title {
         padding: 20px;
         margin: auto;
@@ -596,7 +571,7 @@ arabic {
         font-size: 30px;
     }
 
-    /*-----------------------navigation bar*/
+    /*------------------------------ navigation bar*/
 
     #myname {
         font-size: 35px;
@@ -612,7 +587,7 @@ arabic {
         font-size: 15px;
     }
 
-    /*-----------------------header section*/
+    /*------------------------------ header section*/
 
     .profile-pic2 {
         margin-top:20px;
@@ -632,7 +607,7 @@ arabic {
         background-size: contain;
     }
 
-    /*-----------------------index main section*/
+    /*------------------------------ index main section*/
     .main-section {
         margin: 10% 0;
     }
@@ -669,18 +644,14 @@ arabic {
         padding: 10px 15px;
     }
 
+    /*------------------------------ Journey Page*/
     .progress-skills {
         display: none;
-    }
-
-    .journey-item {
-        padding: 4em 2em 0em 2em;
     }
 
     .journey-item h4 {
         font-size: 18px;
         width: 150px;
-
     }
 
     .journey-item p {
@@ -689,38 +660,16 @@ arabic {
     }
 
     .journey-item:before {
-        content: attr(data-journeydates);
-        position: absolute;
-        left: 1.8em;
         top: 2em;
-        display: block;
-        font-family: "Exo", sans-serif;
-        font-weight: 500;
         font-size: 15px;
-        padding: 0;
-        margin: 0;
-        background-color: red;
-        color: white;
-        padding: 4px;
         width: 150px;
-
-
-    }
-
-    .journey-item:after {
-        width: 12px;
-        height: 12px;
-        display: block;
-        top: 2.4em;
-        position: absolute;
-        background: red;
-        transform: rotate(45deg);
     }
 
     .journey-finisher {
         margin: 50px 0 80px 0;
     }
 
+    /*------------------------------ Connect Page*/
     .connect-title,
     .connect-title h1 {
         top: 25%;
@@ -728,7 +677,7 @@ arabic {
         font-size: 20px;
     }
 
-    /*-----------------------footer*/
+    /*------------------------------ footer*/
     .quicklinks,
     .quicklinks h4 {
         text-align: center;
