@@ -1,5 +1,8 @@
+<!-- declared the doctype as well as the language in the HTML -->
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- in the head, i have declared the character type as well initiating the viewport for it to be responsive. i have linked the bootstrap and font awesome CDNs to the site so it would call from their directors. I have an external document which is used for the styling, which meant i associated the stylesheet to the page. -->
 
 <head>
     <meta charset="utf-8">
@@ -12,7 +15,7 @@
 
 <body>
 
-    <!--        navigation bar with the active class when on the actual page  -->
+    <!-- This section is for the navigation where bootstrap was used to align the four pages within the row. The active class would display which page the user is on at that specific time. Each link has a hoover effect which would enable the user to see which link they could go to. -->
     <nav>
         <div class="row nav-section nav">
             <div class="col-12 col-lg-4 col-md-5 nav-link mainhome">
@@ -36,17 +39,18 @@
     </nav>
 
 
-    <!--image header of the page-->
+    <!-- The header element was used to display my header image which would be the same sized from the bottom of the navigation to the bottom of the screen. -->
     <header>
         <div class="row no-gutter header-section">
             <div class="col-lg-12 bg-image2"></div>
         </div>
     </header>
 
-    <!--   the section where the content of my journey would be placed -->
+    <!-- The content for this section was using bootstrap to make the spacing between my skills and my journey happen. On a desktop/laptop monitor, the skills would be visible as it is a bigger screen to see both skills and my journey, on smaller screen sizes. i made the skills hidden but keeping the journey visible for the user to see for screen space. -->
     <div class="main-section">
         <h1 class="title">From The Beginning</h1>
-        <!-- having dates, places of where it took place, and my roles-->
+
+        <!-- The skills where done using bootstrap component progress bar and changing the colour of each one depending on the skill that is being said  -->
         <section class="row">
             <div class="col-4 progress-skills">
 
@@ -142,7 +146,7 @@
                 </div>
             </div>
 
-
+            <!-- the journey was used in a previous project during this course, i used it for my own journey section but extended it to carry on with the dates. -->
             <div class="col-8">
                 <div class="journey">
                     <div class="journey-item " data-journeydates="May 19th 1990">
@@ -200,6 +204,7 @@
                 </div>
             </div>
 
+            <!-- This is a link which take the user to another tab and enable the opportunity to view my CV or download it if required. -->
             <div class="col-12 col-sm-12 journey-finisher">
                 <h3><a href="assets/cv/adnan-muhtadi-cv.pdf" target="_blank">CLICK HERE </a>to know more about me</h3>
             </div>
@@ -208,60 +213,62 @@
 
 
 
-        <!--the footer consisting off quick links, social media (icons used from font awesome and the capability to download my CV in a pdf version-->
-        <footer>
-            <div class="footer-section">
-                <div class="row">
-                    <div class="col-lg-4 col-md-3 quicklinks">
-                        <h4>Quick Links</h4>
-                        <div class="row">
-                            <div class="col col-lg-6 col-md-12">
-                                <a href="index.html">Home</a>
-                            </div>
-                            <div class="col col-lg-6 col-md-12">
-                                <a href="journey.html">My Journey</a>
-                            </div>
-                            <div class="w-100"></div>
-                            <div class="col col-lg-6 col-md-12">
-                                <a href="portfolio.html">Portfolio</a>
-                            </div>
-                            <div class="col col-lg-6 col-md-12">
-                                <a href="connect.html">Connect</a>
-                            </div>
+    <!-- The footer has the bootstrap column structure which would split the footer into 3 sections. (quick links / social media / CV) the quick links would navigate users to the other pages of the site, again, with different styling on different devices used. -->
+    <footer>
+        <div class="footer-section">
+            <div class="row">
+                <div class="col-lg-4 col-md-3 quicklinks">
+                    <h4>Quick Links</h4>
+                    <div class="row">
+                        <div class="col col-lg-6 col-md-12">
+                            <a href="index.html">Home</a>
                         </div>
-
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 connect">
-                        <h4>Lets Connect</h4>
-                        <div class="social-logos">
-                            <a href="https://www.facebook.com/adnan.muhtadi/" target="_blank"><i class="fab fa-facebook"></i></a>
-
-                            <a href="https://www.instagram.com/adnanmuhtadi/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-
-                            <a href="https://twitter.com/adnanmuhtadi" target="_blank"><i class="fab fa-twitter"></i></a>
-
-                            <a href="https://www.youtube.com/channel/UCt64hh9dMACG43Vuzc5DrtQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
-
-                            <a href="https://www.linkedin.com/in/adnan-muhtadi-3588243b/" target="_blank"><i class="fab fa-linkedin"></i></a>
-
-                            <a href="https://www.snapchat.com/l/en-gb/" target="_blank"><i class="fab fa-snapchat"></i></a>
-
-                            <a href="https://www.pinterest.co.uk/adnanmuhtadi/_saved/" target="_blank"><i class="fab fa-pinterest"></i></a>
-
-                            <a href="https://github.com/adnanmuhtadi" target="_blank"><i class="fab fa-github"></i></a>
-
+                        <div class="col col-lg-6 col-md-12">
+                            <a href="journey.html">My Journey</a>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col col-lg-6 col-md-12">
+                            <a href="portfolio.html">Portfolio</a>
+                        </div>
+                        <div class="col col-lg-6 col-md-12">
+                            <a href="connect.html">Connect</a>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-3 mycv">
-                        <h4>Take A Copy Of My CV!</h4>
-                        <a href="assets/cv/adnan-muhtadi-cv.pdf" target="_blank"><i class="fas fa-file cv" aria-hidden="true"></i></a>
+                </div>
+
+                <!-- Utilising font awesome for the icons to link users to my social media links  -->
+                <div class="col-lg-4 col-md-6 connect">
+                    <h4>Lets Connect</h4>
+                    <div class="social-logos">
+                        <a href="https://www.facebook.com/adnan.muhtadi/" target="_blank"><i class="fab fa-facebook"></i></a>
+
+                        <a href="https://www.instagram.com/adnanmuhtadi/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                        <a href="https://twitter.com/adnanmuhtadi" target="_blank"><i class="fab fa-twitter"></i></a>
+
+                        <a href="https://www.youtube.com/channel/UCt64hh9dMACG43Vuzc5DrtQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
+
+                        <a href="https://www.linkedin.com/in/adnan-muhtadi-3588243b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                        <a href="https://www.snapchat.com/l/en-gb/" target="_blank"><i class="fab fa-snapchat"></i></a>
+
+                        <a href="https://www.pinterest.co.uk/adnanmuhtadi/_saved/" target="_blank"><i class="fab fa-pinterest"></i></a>
+
+                        <a href="https://github.com/adnanmuhtadi" target="_blank"><i class="fab fa-github"></i></a>
+
                     </div>
                 </div>
-            </div>
 
+                <!-- being able to view and download my CV from this section of the footer. -->
+                <div class="col-lg-4 col-md-3 mycv">
+                    <h4>Take a copy of my CV!</h4>
+                    <a href="assets/cv/adnan-muhtadi-cv.pdf" target="_blank"><i class="fas fa-file cv" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
+
 </body>
 
 </html>

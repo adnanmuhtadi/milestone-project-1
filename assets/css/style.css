@@ -37,18 +37,18 @@ body {
     padding-top: 20px;
     text-align: center;
     font-size: 25px;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .nav-section a {
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 .active,
 .mainhome:hover,
 .right:hover {
-    color: black;
+    color: #000000;
     opacity: 1;
     display: block;
     font-weight: 500;
@@ -148,7 +148,7 @@ h3 {
 }
 
 .interests h2 {
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .plane-img,
@@ -230,7 +230,7 @@ arabic {
     margin-left: 30%;
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: black;
+    color: #000000;
     border-left: 1px solid;
 }
 
@@ -250,7 +250,7 @@ arabic {
     font-size: 1.1em;
     padding: 4px;
     margin: 0;
-    background-color: red;
+    background-color: #FF0000;
     color: white;
 }
 
@@ -262,7 +262,7 @@ arabic {
     position: absolute;
     left: -6px;
     content: '';
-    background: red;
+    background: #FF0000;
     transform: rotate(45deg);
 }
 
@@ -385,14 +385,14 @@ arabic {
 }
 
 .connect h4,
-.mycv h4{
+.mycv h4 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     font-weight: 700;
 }
 
 .social-logos,
-.mycv{
+.mycv {
     font-size: 40px;
     text-align: center;
 }
@@ -580,7 +580,7 @@ arabic {
 
     }
 
-    .right{
+    .right {
         margin: 0;
         padding-top: 0;
         text-align: center;
@@ -590,7 +590,7 @@ arabic {
     /*------------------------------ header section*/
 
     .profile-pic2 {
-        margin-top:20px;
+        margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -622,7 +622,7 @@ arabic {
     }
 
     .left-travelhidden,
-    .left-fitnesshidden{
+    .left-fitnesshidden {
         display: initial;
         visibility: visible;
     }

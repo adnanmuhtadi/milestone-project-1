@@ -1,5 +1,8 @@
+<!-- declared the doctype as well as the language in the HTML -->
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- in the head, i have declared the character type as well initiating the viewport for it to be responsive. i have linked the bootstrap and font awesome CDNs to the site so it would call from their directors. I have an external document which is used for the styling, which meant i associated the stylesheet to the page. -->
 
 <head>
     <meta charset="utf-8">
@@ -11,7 +14,7 @@
 </head>
 
 <body>
-    <!--        navigation bar with the active class when on the actual page  -->
+    <!-- This section is for the navigation where bootstrap was used to align the four pages within the row. The active class would display which page the user is on at that specific time. Each link has a hoover effect which would enable the user to see which link they could go to. -->
     <nav>
         <div class="row nav-section nav">
             <div class="col-12 col-lg-4 col-md-5 nav-link mainhome">
@@ -35,12 +38,11 @@
     </nav>
 
 
-    <!--image header of the page with the main space defining the area and the main image is the jumbroton image -->
+    <!-- The header element was used to display my header image which would be the same sized from the bottom of the navigation to the bottom of the screen. There is a small line of text which would display a mini header (catch phrase) -->
     <header>
         <div class="row no-gutter header-section">
             <div class="col-12 col-lg-12 bg-image4"></div>
 
-            <!-- the text within the main image -->
             <div class="main-me-text">
                 <div class="connect-title">
                     <h1>There is no such thing as<br>
@@ -50,11 +52,10 @@
         </div>
     </header>
 
-    <!-- The body of the content displayed which is for the questoin and contact form -->
+    <!-- The main section is where the main content of the page is placed, i have just placed and header and three questions which would send users to the contact form.  -->
     <div class="main-section">
         <h1 class="title">A Few Ways To Reach Out!</h1>
 
-        <!-- the questions to bring the users attention-->
         <div class="main-content questions">
             Looking to ask a question?<br>
             Looking to know more about me? <br>
@@ -62,65 +63,61 @@
         </div>
     </div>
 
+    <!-- created the form using columns to perfectly align the labels with the text boxes. this would then have a submit button at the end of the form. The button is currently not active or linked to anything due to the fact it is only for display for now. -->
+    <div class="connect-form">
+        <div class="center-form">
+            <h2 id="contactlabel">Contact Form</h2>
 
-
-        <!--grouping the form in a seperate div to provide it with a background with each input type assoicated with a label     -->
-        <div class="connect-form">
-            <div class="center-form">
-                <h2 id="contactlabel">Contact Form</h2>
-
-                <form>
-                    <div class="form-group row">
-                        <div class="col-md-3 col-sm-2 col-form-label labelatt">
-                            <label for="user-fullname">Full Name:</label>
-                        </div>
-                        <div class="col-md-9 col-sm-10">
-                            <input type="text" class="form-control" id="user-fullname">
-                        </div>
+            <form>
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-2 col-form-label labelatt">
+                        <label for="user-fullname">Full Name:</label>
                     </div>
-
-                    <div class="form-group row">
-                        <div class="col-md-3 col-sm-2 col-form-label labelatt">
-                            <label for="user-email">Email Address:</label>
-                        </div>
-                        <div class="col-md-9 col-sm-10">
-                            <input type="email" class="form-control" id="user-email">
-                        </div>
+                    <div class="col-md-9 col-sm-10">
+                        <input type="text" class="form-control" id="user-fullname">
                     </div>
+                </div>
 
-                    <div class="form-group row">
-                        <div class="col-md-3 col-sm-2 col-form-label labelatt">
-                            <label for="user-number">Number:</label>
-                        </div>
-                        <div class="col-md-9 col-sm-10">
-                            <input type="tel" class="form-control" id="user-number">
-                        </div>
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-2 col-form-label labelatt">
+                        <label for="user-email">Email Address:</label>
                     </div>
-
-                    <div class="form-group row">
-                        <div class="col-md-3 col-sm-2 col-form-label labelatt">
-                            <label for="user-message">Message:</label>
-                        </div>
-                        <div class="col-md-9 col-sm-10">
-                            <textarea class="form-control" id="user-message" rows="3"></textarea>
-                        </div>
+                    <div class="col-md-9 col-sm-10">
+                        <input type="email" class="form-control" id="user-email">
                     </div>
+                </div>
 
-                    <br>
-                    <input id="submit" type="button" value="Submit">
-                </form>
-                <br>
-                <br>
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-2 col-form-label labelatt">
+                        <label for="user-number">Number:</label>
+                    </div>
+                    <div class="col-md-9 col-sm-10">
+                        <input type="tel" class="form-control" id="user-number">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-2 col-form-label labelatt">
+                        <label for="user-message">Message:</label>
+                    </div>
+                    <div class="col-md-9 col-sm-10">
+                        <textarea class="form-control" id="user-message" rows="3"></textarea>
+                    </div>
+                </div>
 
                 <br>
-                <br>
-                <br>
+                <input id="submit" type="button" value="Submit">
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
 
-            </div>
         </div>
+    </div>
 
-
-    <!--the footer consisting off quick links, social media (icons used from font awesome and the capability to download my CV in a pdf version-->
+    <!-- The footer has the bootstrap column structure which would split the footer into 3 sections. (quick links / social media / CV) the quick links would navigate users to the other pages of the site, again, with different styling on different devices used. -->
     <footer>
         <div class="footer-section">
             <div class="row">
@@ -144,6 +141,7 @@
 
                 </div>
 
+                <!-- Utilising font awesome for the icons to link users to my social media links  -->
                 <div class="col-lg-4 col-md-6 connect">
                     <h4>Lets Connect</h4>
                     <div class="social-logos">
@@ -166,8 +164,9 @@
                     </div>
                 </div>
 
+                <!-- being able to view and download my CV from this section of the footer. -->
                 <div class="col-lg-4 col-md-3 mycv">
-                    <h4>Take A Copy Of My CV!</h4>
+                    <h4>Take a copy of my CV!</h4>
                     <a href="assets/cv/adnan-muhtadi-cv.pdf" target="_blank"><i class="fas fa-file cv" aria-hidden="true"></i></a>
                 </div>
             </div>

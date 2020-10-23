@@ -1,5 +1,8 @@
+<!-- declared the doctype as well as the language in the HTML -->
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- in the head, i have declared the character type as well initiating the viewport for it to be responsive. i have linked the bootstrap and font awesome CDNs to the site so it would call from their directors. I have an external document which is used for the styling, which meant i associated the stylesheet to the page. -->
 
 <head>
     <meta charset="utf-8">
@@ -12,7 +15,7 @@
 
 <body>
 
-    <!--        navigation bar with the active class when on the actual page  -->
+    <!-- This section is for the navigation where bootstrap was used to align the four pages within the row. The active class would display which page the user is on at that specific time. Each link has a hoover effect which would enable the user to see which link they could go to. -->
     <nav>
         <div class="row nav-section nav">
             <div class="col-12 col-lg-4 col-md-5 nav-link mainhome">
@@ -36,18 +39,17 @@
     </nav>
 
 
-    <!--image header of the page-->
+    <!-- The header element was used to display my header image which would be the same sized from the bottom of the navigation to the bottom of the screen. -->
     <header>
         <div class="row no-gutter header-section">
             <div class="col-lg-12 bg-image3"></div>
         </div>
     </header>
 
-    <!--   the section where the content of my journey would be placed -->
+    <!--   the section is a placeholder of the other sites that has been developed within this course. I placed the sites in a card format with a small description of the site that was built. Each card had the image of the homepage of each site. There is a button within each card to allow the user to physically view the site in a separate tab -->
     <div class="main-section">
         <h1 class="title">Project Profolio</h1>
 
-        <!-- having dates, places of where it took place, and my roles-->
         <div class="col-lg-12 projects">
             <p>A placeholder for all sites that has been developed during the duration of my course. It demostrate the different programming languages used to develop the sites.</p>
         </div>
@@ -101,14 +103,12 @@
                     <a href="assets/portfolio-sites/resume-project/index.html" target="_blank" class="btn btn-primary visitme">Visit Me!</a>
                 </div>
             </div>
-
-
         </section>
     </div>
     <br>
     <br>
 
-    <!--the footer consisting off quick links, social media (icons used from font awesome and the capability to download my CV in a pdf version-->
+    <!-- The footer has the bootstrap column structure which would split the footer into 3 sections. (quick links / social media / CV) the quick links would navigate users to the other pages of the site, again, with different styling on different devices used. -->
     <footer>
         <div class="footer-section">
             <div class="row">
@@ -132,6 +132,7 @@
 
                 </div>
 
+                <!-- Utilising font awesome for the icons to link users to my social media links  -->
                 <div class="col-lg-4 col-md-6 connect">
                     <h4>Lets Connect</h4>
                     <div class="social-logos">
@@ -154,14 +155,15 @@
                     </div>
                 </div>
 
+                <!-- being able to view and download my CV from this section of the footer. -->
                 <div class="col-lg-4 col-md-3 mycv">
-                    <h4>Take A Copy Of My CV!</h4>
+                    <h4>Take a copy of my CV!</h4>
                     <a href="assets/cv/adnan-muhtadi-cv.pdf" target="_blank"><i class="fas fa-file cv" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
-
     </footer>
+
 </body>
 
 </html>
