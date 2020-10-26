@@ -2,40 +2,38 @@
 
 [View project here.](#)
 
-This is my personal portfolio site where I would be able to advertise my skills and other web projects that I have developed. It will be also be a placeholder where I would advertise myself, my skills, employment history projects as well as a method of contacting me. This project would utilise the skills that I have learnt from this course to achieve this project.
+This is my personal portfolio site where I would be able to advertise my skills and other web projects that I have developed. It will also be a placeholder where I would advertise myself, my skills, employment history projects as well as a method of contacting me. This project would utilise the skills that I have learnt from this course to achieve this project.
 
 The content of this site would be used throughout my journey as my skills and projects would forever keep developing. This site would consist of various technologies such as HTML5, CSS3 as well as bootstrap (further technologies would be utilised as my skills develop throughout my career in development). This site will be responsive which would make it accessible on all size devices.
 
-<h2 align="center"><img src="#"></h2>
+<h2 align="center"><img src="https://adnanmuhtadi.github.io/milestone-project-1/"></h2>
 
 ## User Experience (UX)
 
 -   ### The Audience
 
-The purpose of this site is to advertise myself in forms of Work experiences, education, hobbies and interested. The intended audience will be future employers as well job recruiters. 
+The purpose of this site is to advertise me in forms of work experiences, education, hobbies and interests. The intended audience will be future employers as well as job recruiters.
 
 -   ### User Objectives
 
-The website will inform users (Recruiters, Employers, Business and Independent Contracts) who i am and my skills that will be demonstrated in multiple ways. Having a skills bar as well as the site being a placeholder for the other websites which I have developed. (In the short run, the sites which will be used as placeholders will be the sites that was developed are exercises during the course).
+The website will inform users (Recruiters, Employers, Business and Independent Contracts) who I am and my skills that will be demonstrated in multiple ways. Having a skills bar as well as the site is a placeholder for the other websites which I have developed. (In the short run, the sites which will be used as placeholders will be the sites that were developed as exercises during the course).
 
 The user would also be able to know my journey to know where and how I started my education and career. They would also have the opportunity to view and download my CV as that would inform them more about me. The user would also be able to reach out and contact me in multiple ways in forms of social media and/or a contact form.
 
 -   ### My Objectives
 
-My project is going to achieve its objectives by having snippets of information extracted from my personal CV (which would also be accessible via the website). The website will provide the user a method of viewing and downloading a PDF copy of my CV. Another section would incorporate multiple box models in a form of thumbnails to advertise the other projects which I have developed using Code Institute tutorials.
+My project is going to achieve its objectives by having snippets of information extracted from my personal CV (which would also be accessible via the website). The website will provide the user with a method of viewing and downloading a PDF copy of my CV. Another section would incorporate multiple box models in a form of thumbnails to advertise the other projects which I have developed using Code Institute tutorials.
 
 My aim is to keep it simple and elegant with a soft colour scheme as I do not want to distract the user from the main purpose of the website. If the user wants to reach out to me, social media options would be placed in the footer within every page. Another method of contacting me would be through the contact form which would be the last page of the website.
 
 -   ### User Stories
 
-    The intended type of users which this website is targets for are Recruiters, Employers, Businesses and Independent Contractors.
+    The intended type of users which this website is targeted for are Recruiters, Employers, Businesses and Independent Contractors..
 
-    -   #### First Time Visitor Goals
-
-        1. As a First Time Visitor, I want to easily understand what I am looking at and what is it telling me.
-        2. As a First Time Visitor, I want to be able to easily read and navigate around the site as well as be able to download developers CV in a form of a PDF.
-        3. As a First Time Visitor, I want to be see contact information easily across all the pages of the site, so it will be easy to reach out to the developer if and when i choose
-        4. As a First Time Visitor, I want to be able to contact them if questions come to my head.
+    1. As a First Time Visitor, I want to easily understand what I am looking at and what is it telling me.
+    2. As a First Time Visitor, I want to be able to easily read and navigate around the site as well as be able to download developers CV in a form of a PDF.
+    3. As a First Time Visitor, I want to be see contact information easily across all the pages of the site, so it will be easy to reach out to the developer if and when i choose
+    4. As a First Time Visitor, I want to be able to contact them if questions come to my head.
 
     -   #### Returning Visitor Goals
 
