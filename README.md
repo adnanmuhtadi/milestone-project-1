@@ -30,10 +30,10 @@ My aim is to keep it simple and elegant with a soft colour scheme as I do not wa
 
     The intended type of users which this website is targeted for are Recruiters, Employers, Businesses and Independent Contractors..
 
-    1. As a First Time Visitor, I want to easily understand what I am looking at and what is it telling me.
-    2. As a First Time Visitor, I want to be able to easily read and navigate around the site as well as be able to download developers CV in a form of a PDF.
-    3. As a First Time Visitor, I want to be see contact information easily across all the pages of the site, so it will be easy to reach out to the developer if and when i choose
-    4. As a First Time Visitor, I want to be able to contact them if questions come to my head.
+1. As a First Time Visitor, I want to easily understand what I am looking at and what is it telling me.
+2. As a First Time Visitor, I want to be able to easily read and navigate around the site as well as be able to download developers CV in a form of a PDF.
+3. As a First Time Visitor, I want to be see contact information easily across all the pages of the site, so it will be easy to reach out to the developer if and when i choose
+4. As a First Time Visitor, I want to be able to contact them if questions come to my head.
 
     -   #### Returning Visitor Goals
 
