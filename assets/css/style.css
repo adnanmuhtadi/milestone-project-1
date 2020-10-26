@@ -114,6 +114,31 @@ body {
     height: 95vh;
 }
 
+.down-index {
+    bottom: 20px;
+    font-size: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+}
+
+.down {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    font-size: 150px;
+    margin-left: 50%;
+    margin-right: 50%;
+    color: #000000;
+}
+
+.down:hover,
+.down-index:hover{
+    background-color: #999999;
+    color: #ffffff;
+    border-radius: 25%;
+}
+
 .header-section h2,
 h3 {
     font-weight: 700;
@@ -149,13 +174,14 @@ h3 {
 
 .interests h2 {
     font-family: "Montserrat", sans-serif;
+    font-size: 35px;
 }
 
 .plane-img,
 .laptop-img,
 .fitness-img,
 .cooking-img {
-    width: 75%;
+    width: 350px;
     border-radius: 50%;
     margin-top: 25px;
     display: block;
@@ -168,7 +194,10 @@ h3 {
 .fitness-info,
 .cooking-info {
     padding: 100px 0px;
+    font-size: 25px;
+    letter-spacing: 1px;
 }
+
 
 .left-travelhidden,
 .left-fitnesshidden {
@@ -400,6 +429,166 @@ arabic {
 .fa-file {
     font-size: 40px;
     padding-top: 10px;
+}
+
+/*------------------------------ Media Query for tablet size device in a vertical format */
+@media only screen and (max-width: 768px) {
+
+    /*------------------------------ navigation bar*/
+    #myname {
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #myname,
+    .right {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-section h2 {
+        text-align: center;
+        font-size: 17px;
+        padding: 15px 10px 0px 10px;
+    }
+
+    /*------------------------------ header section*/
+    .header-section {
+        min-height: 250px;
+    }
+
+    .profile-pic1 {
+        position: absolute;
+    }
+
+    .profile-pic2 {
+        margin-top: 50px;
+        width: 40%;
+    }
+
+    .header-section h2,
+    h3 {
+        font-size: 150%
+    }
+
+    .bg-image1,
+    .bg-image2,
+    .bg-image3,
+    .bg-image4 {
+        background-size: contain;
+        max-height: 100px;
+    }
+
+    /*------------------------------ index main section*/
+    .main-section {
+        margin: 35% 0 10% 0;
+    }
+
+    .aboutme p {
+        padding: 1% 0%;
+    }
+
+    .interests h2 {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .interests p {
+        margin: 0 3%;
+    }
+
+    .travel-info,
+    .programming-info,
+    .fitness-info,
+    .cooking-info {
+        padding: 65px 0px;
+    }
+
+    .left-travelhidden,
+    .left-fitnesshidden {
+        display: none;
+    }
+
+    /*------------------------------ Journey section*/
+    .progress-skills {
+        display: none;
+    }
+
+    .journey-item {
+        padding: 4em 2em 0em 2em;
+    }
+
+    .journey-item h4 {
+        font-size: 18px;
+    }
+
+    .journey-item p {
+        font-size: 13px;
+    }
+
+    .journey-item {
+        margin-left: 60%;
+    }
+
+    .journey-item:before {
+        left: 1.8em;
+        top: 2em;
+        font-size: 15px;
+    }
+
+    .journey-finisher {
+        margin: 50px 0 80px 0;
+    }
+
+    /*------------------------------ Portfolio Section */
+    .projects p {
+        margin: 0;
+    }
+
+    .card {
+        margin: 20px;
+    }
+
+    .container-thumb p {
+        font-size: 15px;
+    }
+
+    /*------------------------------ Connect Section*/
+    .center-form {
+        max-width: 90%;
+    }
+
+    .connect-title,
+    .connect-title h1 {
+        top: 25%;
+        left: 3%;
+        font-size: 20px;
+    }
+
+    /*-----------------------footer*/
+    .footer-section {
+        padding: 15px 0;
+    }
+
+    .quicklinks a {
+        font-size: 15px;
+    }
+
+    .quicklinks h4,
+    .connect h4,
+    .mycv h4 {
+        font-size: 20px;
+    }
+
+    .social-logos {
+        padding: 40px 0;
+        font-size: 25px;
+    }
+
+    .cv {
+        font-size: 25px;
+    }
 }
 
 /*------------------------------ Media Query for tablet size device in a vertical format */
