@@ -132,6 +132,31 @@ h3 {
     font-family: "Montserrat", sans-serif;
 }
 
+.down-index {
+    bottom: 20px;
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+}
+
+.down {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    font-size: 100px;
+    margin-left: 50%;
+    margin-right: 50%;
+    color: #000000;
+}
+
+.down:hover,
+.down-index:hover {
+    background-color: #999999;
+    color: #ffffff;
+    border-radius: 25%;
+}
+
 /*------------------------------ Index Main Section*/
 .main-section {
     margin: 7% 7% 5% 7%;
@@ -145,7 +170,7 @@ h3 {
 
 .aboutme p {
     padding: 6% 0% 6% 5%;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .interests h2 {
@@ -288,7 +313,7 @@ arabic {
 .timage {
     border-bottom: 1px solid #000000;
     width: 100%;
-    height: 200px;
+    height: auto;
 }
 
 .container-thumb {
@@ -405,7 +430,7 @@ arabic {
 }
 
 /*------------------------------ Media Query for tablet size device in a vertical format */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 
     /*------------------------------ navigation bar*/
     #myname {
@@ -453,30 +478,31 @@ arabic {
         max-height: 100px;
     }
 
+    .down,
+    .down-index {
+        display: none;
+    }
+
     /*------------------------------ index main section*/
     .main-section {
-        margin: 35% 0 10% 0;
+        margin: 40% 0 10% 0;
     }
 
     .aboutme p {
-        padding: 1% 0%;
-        font-size: 15px;
+        padding: 5% 0%;
+        font-size: 17px;
     }
 
     .interests h2 {
-        font-size: 30px;
-    }
-
-    .interests p {
-        margin: 0 3%;
+        font-size: 40px;
     }
 
     .travel-info,
     .programming-info,
     .fitness-info,
     .cooking-info {
-        padding: 55px 30px 55px 55px;
-        font-size: 15px;
+        padding: 80px 30px 55px 55px;
+        font-size: 20px;
     }
 
     .left-travelhidden,
@@ -510,7 +536,7 @@ arabic {
     }
 
     .journey-finisher {
-        margin: 50px 0 80px 0;
+        margin: 50px 0 0px 0;
     }
 
     /*------------------------------ Portfolio Section */
@@ -519,11 +545,12 @@ arabic {
     }
 
     .card {
-        margin: 20px;
+        margin: 5px;
+        height: 350px;
     }
 
     .container-thumb p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     /*------------------------------ Connect Section*/
@@ -554,6 +581,57 @@ arabic {
     }
 
     .social-logos {
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    .cv {
+        font-size: 25px;
+    }
+}
+
+/*------------------------------ Media Query for tablet size device in a vertical format */
+@media only screen and (max-width: 768px) {
+
+    /*------------------------------ index main section*/
+    .main-section {
+        margin: 35% 0 10% 0;
+    }
+
+    .aboutme p {
+        padding: 1% 0%;
+        font-size: 15px;
+    }
+
+    .interests h2 {
+        font-size: 30px;
+    }
+
+    .travel-info,
+    .programming-info,
+    .fitness-info,
+    .cooking-info {
+        padding: 55px 30px 55px 55px;
+        font-size: 15px;
+    }
+
+    /*------------------------------ Journey section*/
+    .journey-finisher {
+        margin: 50px 0 80px 0;
+    }
+
+    /*------------------------------ Portfolio Section */
+    .card {
+        margin: 20px;
+        height: 375px;
+    }
+
+    .container-thumb p {
+        font-size: 15px;
+    }
+
+    /*-----------------------footer*/
+    .social-logos {
         padding: 40px 0;
         font-size: 25px;
     }
@@ -573,7 +651,6 @@ arabic {
     }
 
     /*------------------------------ navigation bar*/
-
     #myname {
         font-size: 35px;
         text-align: center;
@@ -589,7 +666,6 @@ arabic {
     }
 
     /*------------------------------ header section*/
-
     .profile-pic2 {
         margin-top: 20px;
         margin-left: auto;
@@ -599,13 +675,6 @@ arabic {
     .header-section h2,
     h3 {
         font-size: 110%
-    }
-
-    .bg-image1,
-    .bg-image2,
-    .bg-image3,
-    .bg-image4 {
-        background-size: contain;
     }
 
     /*------------------------------ index main section*/
@@ -650,23 +719,16 @@ arabic {
         display: none;
     }
 
-    .journey-item {
-        margin-left: 30%;
-    }
-
     .journey-item h4 {
         font-size: 18px;
         width: 250px;
     }
 
     .journey-item p {
-        font-size: 13px;
         width: 250px;
     }
 
     .journey-item:before {
-        top: 2em;
-        font-size: 15px;
         width: 200px;
     }
 
@@ -698,6 +760,80 @@ arabic {
 
     .social-logos {
         padding: 10px 0;
+    }
+
+}
+
+/*------------------------------ Media Query for mobile phone size device in a vertical format */
+@media only screen and (max-width: 375px) {
+    .title {
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    /*------------------------------ header section*/
+    .profile-pic2 {
+        margin-top: 10px;
+    }
+
+    .header-section h2,
+    h3 {
+        font-size: 90%
+    }
+
+    /*------------------------------ index main section*/
+    .main-section {
+        margin: 5% 0;
+    }
+
+}
+
+/*------------------------------ Media Query for mobile phone size device in a vertical format */
+@media only screen and (max-width: 320px) {
+    .title {
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    /*------------------------------ header section*/
+    .profile-pic2 {
+        margin-top: 10px;
+    }
+
+    .header-section h2,
+    h3 {
+        font-size: 90%
+    }
+
+    /*------------------------------ index main section*/
+    .main-section {
+        margin: 0;
+    }
+
+    /*------------------------------ Journey Page*/
+    .journey-item {
+        margin-left: 15%;
+    }
+
+    .journey-item h4 {
+        width: 200px;
+    }
+
+    .journey-item p {
+        width: 200px;
+    }
+
+    /*------------------------------ Connect Page*/
+    .connect-title h1 {
+        font-size: 15px;
+    }
+
+    .questions {
+        font-size: 13px;
     }
 
 }
