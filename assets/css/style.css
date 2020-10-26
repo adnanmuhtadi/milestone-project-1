@@ -429,7 +429,7 @@ arabic {
     padding-top: 10px;
 }
 
-/*------------------------------ Media Query for tablet size device in a vertical format */
+/*------------------------------ Media Query for Large Laptop size device in a vertical format */
 @media only screen and (max-width: 1024px) {
 
     /*------------------------------ navigation bar*/
