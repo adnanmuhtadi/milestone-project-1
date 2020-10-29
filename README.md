@@ -79,19 +79,25 @@ The features that will be utilised in this project will be as follows:
 
 #### Site Features
 
-- Responsive on devices sized 1024px, 768px, 425px, 375px and 320px.
+-   Responsive on devices sized 1024px, 768px, 425px, 375px and 320px.
+
+-   Allows user to know the navigated hyperlinks, by having hoover over feature within the hyperlinks.
 
 #### Navigation bar
 
-
+-
 
 #### Footer
+
+-   Quick links would
 
 -   Allows the user to download my CV, by having the developers CV to be viewed and downloaded in a PDF format.
 
 #### Header Image
 
+-   Have the header image expand the full width and height of the display on larger screens, but would change depending on the size of the device.
 
+-   On a large screen, Allow user to click on the arrows pointing down on the jumbotron image to see the next content.
 
 #### About Me
 
@@ -99,30 +105,31 @@ The features that will be utilised in this project will be as follows:
 
 #### Journey
 
--   Allows user to download my CV, by having my CV to be viewed and downloaded in a PDF format.
+-   Allow user to see my skills sets and confidence level of each one.
+
+-   In a responsive view, the skills would disappear and show my journey only.
+
+-   Allow user to go through my journey from birth to where I am today.
+
+-   Allow user to download my CV, by having my CV to be viewed and downloaded in a PDF format.
 
 #### Portfolio
 
 
 
 #### Connect
--   Allows user to access the site using the following methods: web, tablet and mobile. This will be achieved by making the site responsive.
 
--   Allows user to watch the jumbotron increase in size while the page is loading, by having it zoom out.
-
--   Allows user to know the navigated hyperlinks, by having hoover over feature within the hyperlinks.
-
-
-
--   Allows user to know the areas of text entry, by having the text box highlighted when selected
+-   Allows the user to know the areas of text entry, by having the text box highlighted when selected
 
 ### Features Left to Implement
 
 -   Allow the developer to amend the website via a CMS to update the website quicker.
 
--   Allowing the contact form to send an email to the developers email.
+-   Allowing the contact form to send an email to my email address.
 
 -   Placeholder on the website with personal information to be able to reach out easier.
+
+-   To make the hover-over features more animated
 
 ## Technologies Used
 

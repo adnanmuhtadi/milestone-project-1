@@ -255,6 +255,7 @@ arabic {
     background-color: #000000;
 }
 
+/*-- code taken from Rosie Resume from incourse projects*/
 .journey-item {
     margin-left: 30%;
     padding: 4em 2em 0em 2em;
@@ -268,7 +269,6 @@ arabic {
     margin: 0;
 }
 
-/*-- code taken from Rosie Resume from incourse projects*/
 .journey-item:before {
     content: attr(data-journeydates);
     position: absolute;
