@@ -73,11 +73,11 @@ The features that will be utilised in this project will be as follows:
 
 
 
-###### Navigation bar
+#### Navigation bar
 
 
 
-###### Footer
+##### Footer
 
 
 
