@@ -155,8 +155,8 @@ The features that will be utilised in this project will be as follows:
 
 The project was deployed to Github Pages using the following method:
 
-1.  Log into Github and find the Project Repository(https://github.com/adnanmuhtadi/milestone-project-1)
-1.  At the top of the Repository, find the "Settings(https://github.com/adnanmuhtadi/milestone-project-1/settings)" option on the menu.
+1.  Log into Github and find the [Project Repository](https://github.com/adnanmuhtadi/milestone-project-1)
+1.  At the top of the Repository, find the "[Settings](https://github.com/adnanmuhtadi/milestone-project-1/settings)" option on the menu.
 1.  Scroll down the page until you see "Github Pages" section.
 1.  Under the "Source" section, a drop-down option with the result of "None" is visible. Click on the drop-down option and select "Master Brand".
 1.  The page would automatically refresh itself to the top of the page.
