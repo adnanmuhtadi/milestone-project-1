@@ -128,23 +128,23 @@ The features that will be utilised in this project will be as follows:
 
 1. [Google Chrome:](https://www.google.co.uk/intl/en_uk/chrome/)
     - Default browser used to visually display the build process.
-1. [Paint 3D:] (https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
+1. [Paint 3D:](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
     - Was used to crop images to be the same size throughout
-1. [Bootstrap 4.5.2:] (https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.5.2:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Google Fonts:] (https://fonts.google.com/)
+1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:] (https://fontawesome.com/)
+1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git:] (https://git-scm.com/)
+1. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
-1. [GitHub:] (https://github.com/)
+1. [GitHub:](https://github.com/)
     - GitHub is used to store the code of the project after being pushed from Git.
-1. [Github Desktop:] (https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Github Desktop:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - A tool that allows you to interact with Github from the desktop
-1. [Balsamiq:] (https://balsamiq.com/)
+1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/adnanmuhtadi/milestone-project-1/tree/master/reference-files/wireframes) during the design process.
-1. [Brackets:] (http://brackets.io/)
+1. [Brackets:](http://brackets.io/)
     - Brackets was used as my text editor to develop the site.
 
 ## Testing
@@ -155,9 +155,12 @@ The features that will be utilised in this project will be as follows:
 
 The project was deployed to Github Pages using the following method:
 
-1.  Log into Github and find the Project Repository (https://github.com/adnanmuhtadi/milestone-project-1)
-1.  At the top of the Repository, find the "Settings (https://github.com/adnanmuhtadi/milestone-project-1/settings)" option on the menu.
-1.
+1.  Log into Github and find the Project Repository(https://github.com/adnanmuhtadi/milestone-project-1)
+1.  At the top of the Repository, find the "Settings(https://github.com/adnanmuhtadi/milestone-project-1/settings)" option on the menu.
+1.  Scroll down the page until you see "Github Pages" section.
+1.  Under the "Source" section, a drop-down option with the result of "None" is visible. Click on the drop-down option and select "Master Brand".
+1.  The page would automatically refresh itself to the top of the page.
+1.  Scroll down to 'Github Pages' again and you would be able to see a published link which would be your deployed site.
 
 ## Credits
 
