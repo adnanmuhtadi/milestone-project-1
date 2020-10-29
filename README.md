@@ -10,55 +10,61 @@ The content of this site would be used throughout my journey as my skills and pr
 
 ## User Experience (UX)
 
--   ### The Audience
+### The Audience
 
 The purpose of this site is to advertise me in forms of work experiences, education, hobbies and interests. The intended audience will be future employers as well as job recruiters.
 
--   ### User Objectives
+### User Objectives
 
 The website will inform users (Recruiters, Employers, Business and Independent Contracts) who I am and my skills that will be demonstrated in multiple ways. Having a skills bar as well as the site is a placeholder for the other websites which I have developed. (In the short run, the sites which will be used as placeholders will be the sites that were developed as exercises during the course).
 
 The user would also be able to know my journey to know where and how I started my education and career. They would also have the opportunity to view and download my CV as that would inform them more about me. The user would also be able to reach out and contact me in multiple ways in forms of social media and/or a contact form.
 
--   ### My Objectives
+### My Objectives
 
 My project is going to achieve its objectives by having snippets of information extracted from my personal CV (which would also be accessible via the website). The website will provide the user with a method of viewing and downloading a PDF copy of my CV. Another section would incorporate multiple box models in a form of thumbnails to advertise the other projects which I have developed using Code Institute tutorials.
 
-My aim is to keep it simple and elegant with a soft colour scheme as I do not want to distract the user from the main purpose of the website. If the user wants to reach out to me, social media options would be placed in the footer within every page. Another method of contacting me would be through the contact form which would be the last page of the website.
+I aim to keep it simple and elegant with a soft colour scheme as I do not want to distract the user from the main purpose of the website. If the user wants to reach out to me, social media options would be placed in the footer within every page. Another method of contacting me would be through the contact form which would be the last page of the website.
 
--   ### User Stories
+### User Stories
 
-The intended type of users which this website is targeted for are Recruiters, Employers, Businesses and Independent Contractors..
+The intended type of users which this website is targeted for are Recruiters, Employers, Businesses and Independent Contractors.
 
 1. As a user, I want to be able to identify the different webpages within the website so I can clearly choose which webpage I want to go on.
 2. As a user, I want to be able to view/download the developers' CV so I can find out more information about the developers.
 3. As a user, I want to be able to contact the developer so I can ask questions if I want to reach out to him.
 4. As a user, I want to find social media links so I can follow their activity.
 5. As a user, I want to see the developers portfolio so I can see what other sites they have developed.
-6. As a user, I want to see the developers skillsets so I know what his main skills are.
+6.  As a user, I want to see the developers skillsets so I know what his main skills are.
 
--   ### Design
-    -   #### Colour Scheme
-        -   I kept the colour scheme White with a little shade of grey in different parts of the site as I wanted to keep the site simple and friendly to the eye
-    -   #### Typography
-        -   I have chosen to use Poppins and Montserrat font as the main fonts throughout the website with Sans Serif as the emergency font in the case for any reason the font is not being imported into the site correctly. Both Poppins and Montserrat is a clean font and easy to read, so it is both attractive and appropriate.
-    -   #### Imagery
-        -   The images that where used are based on the content of what it is protraying. Each hero image has the reduced opacity to increase the visibility of any content which would be on the images.
+### Design
+-   #### Colour Scheme
+    -   I kept the colour scheme White with a little shade of grey in different parts of the site as I wanted to keep the site simple and friendly to the eye
+
+-   #### Typography
+    -   I have chosen to use Poppins and Montserrat font as the main fonts throughout the website with Sans Serif as the emergency font in the case for any reason the font is not being imported into the site correctly. Both Poppins and Montserrat is a clean font and easy to read, so it is both attractive and appropriate.
+
+-   #### Imagery
+    -   The images that were used are based on the content of what it is portraying. Each hero image has the reduced opacity to increase the visibility of any content which would be on the images.
 
 *   ### Wireframes
 
+    #### Home Page
     -   Home Page Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/home-wireframe-laptop.pdf)
     -   Home Page Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/home-wireframe-tablet.pdf)
     -   Home Page Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/home-wireframe-mobile.pdf)
 
+    #### Journey Page
     -   My Journey Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/journey-wireframe-laptop.pdf)
     -   My Journey Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/journey-wireframe-tablet.pdf)
     -   My Journey Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/journey-wireframe-mobile.pdf)
 
+    #### Portfolio Page
     -   Portfolio Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/portfolio-wireframe-laptop.pdf)
     -   Portfolio Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/portfolio-wireframe-tablet.pdf)
     -   Portfolio Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/portfolio-wireframe-mobile.pdf)
 
+    #### Connect Page
     -   Connect Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/connect-wireframe-laptop.pdf)
     -   Connect Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/connect-wireframe-tablet.pdf)
     -   Connect Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/connect-wireframe-mobile.pdf)
@@ -71,58 +77,61 @@ The features that will be utilised in this project will be as follows:
 
 ### Existing Features
 
+#### Site Features
 
+- Responsive on devices sized 1024px, 768px, 425px, 375px and 320px.
 
 #### Navigation bar
 
 
 
-##### Footer
+#### Footer
+
+-   Allows the user to download my CV, by having the developers CV to be viewed and downloaded in a PDF format.
+
+#### Header Image
 
 
 
-###### Header Image
+#### About Me
 
 
 
-###### About Me
+#### Journey
+
+-   Allows user to download my CV, by having my CV to be viewed and downloaded in a PDF format.
+
+#### Portfolio
 
 
 
-###### Journey
-
-
-
-###### Portfolio
-
-
-
-###### Connect
+#### Connect
 -   Allows user to access the site using the following methods: web, tablet and mobile. This will be achieved by making the site responsive.
 
 -   Allows user to watch the jumbotron increase in size while the page is loading, by having it zoom out.
 
 -   Allows user to know the navigated hyperlinks, by having hoover over feature within the hyperlinks.
 
--   Allows user to download my CV, by having my CV to be viewed and downloaded in a PDF format.
+
 
 -   Allows user to know the areas of text entry, by having the text box highlighted when selected
 
 ### Features Left to Implement
 
--   Allow users to access the website faster, by having the load time reduce.
-
 -   Allow the developer to amend the website via a CMS to update the website quicker.
+
+-   Allowing the contact form to send an email to the developers email.
+
+-   Placeholder on the website with personal information to be able to reach out easier.
 
 ## Technologies Used
 
--   [Twitter Bootstrap](https://getbootstrap.com/)
-    - Used for features within the skills on my
-
-### Languages Used
+###  Programming Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - HTML5 was used to structure and present content on my website.
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - CSS3 was used to provide my website with style
 
 ### Frameworks, Libraries & Programs Used
 
@@ -140,7 +149,7 @@ The features that will be utilised in this project will be as follows:
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the code of the project after being pushed from Git.
-1. [Github Desktop:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Github Desktop:](https://desktop.github.com/)
     - A tool that allows you to interact with Github from the desktop
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/adnanmuhtadi/milestone-project-1/tree/master/reference-files/wireframes) during the design process.

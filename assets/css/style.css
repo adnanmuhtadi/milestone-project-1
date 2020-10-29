@@ -268,7 +268,7 @@ arabic {
     margin: 0;
 }
 
-/*-- code taken from Rosie Resume from incoure projects*/
+/*-- code taken from Rosie Resume from incourse projects*/
 .journey-item:before {
     content: attr(data-journeydates);
     position: absolute;
