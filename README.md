@@ -180,6 +180,8 @@ On code completion, i ensured my code was validated with no snytax errors. I use
 
 ### Results
 
+Page | With Errors | Without Errors
+------------ | ------------- | -------------
 index.html| [With Errors]() | [Without Errors]()
 journey.html| [With Errors]() | [Without Errors]()
 portfolio.html| [With Errors]() | [Without Errors]()
