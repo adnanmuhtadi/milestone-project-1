@@ -81,15 +81,23 @@ The features that will be utilised in this project will be as follows:
 
 -   Responsive on devices sized 1024px, 768px, 425px, 375px and 320px.
 
--   Allows user to know the navigated hyperlinks, by having hoover over feature within the hyperlinks.
+-   Allows the user to know the navigated hyperlinks, by having hoover over feature within the hyperlinks.
 
 #### Navigation bar
 
--
+-   All links within the navigation bar would take the user to its representable page.
+
+-   The layout of them would change on a mobile device.
+
+-   Active pages would be visible as the links would be in bold and underlined.
+
+-   All link on the navigation bar has a hover-over effect.
 
 #### Footer
 
--   Quick links would
+-   Quick links would take you different pages of the website.
+
+-   Clickable social media icons which are connected to my personal social media homepages.
 
 -   Allows the user to download my CV, by having the developers CV to be viewed and downloaded in a PDF format.
 
@@ -101,7 +109,9 @@ The features that will be utilised in this project will be as follows:
 
 #### About Me
 
+-   Would display information about me and my interests in a user friendly and clear view without displaying too much white space.
 
+-   On mobile view, the format of the page would change but the content would remain the same.
 
 #### Journey
 
@@ -115,7 +125,7 @@ The features that will be utilised in this project will be as follows:
 
 #### Portfolio
 
-
+-   Will display the other websites which have been developed (these are the projects developed while doing the course).
 
 #### Connect
 
@@ -163,9 +173,22 @@ The features that will be utilised in this project will be as follows:
 1. [Brackets:](http://brackets.io/)
     - Brackets was used as my text editor to develop the site.
 
+
+## Validation
+
+On code completion, i ensured my code was validated with no snytax errors. I used [W3C Markup Validator](https://validator.w3.org/) for HTML5 and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for CSS3 to ensure my code is W3C Compliant.
+
+### Results
+
+With Errors | Without Errors
+------------ | -------------
+
+
 ## Testing
 
-
+functionality
+useability
+responsiveness
 
 ## Deployment
 
