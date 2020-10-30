@@ -172,7 +172,8 @@ The features that will be utilised in this project will be as follows:
     - Balsamiq was used to create the [wireframes](https://github.com/adnanmuhtadi/milestone-project-1/tree/master/reference-files/wireframes) during the design process.
 1. [Brackets:](http://brackets.io/)
     - Brackets was used as my text editor to develop the site.
-
+1. [Grammerly:](https://app.grammarly.com/)
+    - Online tool which assists with the english grammar.
 
 ## Validation
 
@@ -182,11 +183,11 @@ On code completion, i ensured my code was validated with no snytax errors. I use
 
 Page | With Errors | Without Errors
 ------------ | ------------- | -------------
-index.html| [With Errors]() | [Without Errors]()
-journey.html| [With Errors]() | [Without Errors]()
-portfolio.html| [With Errors]() | [Without Errors]()
-connect.html| [With Errors]() | [Without Errors]()
-style.css | [With Errors]() | [Without Errors]()
+index.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf)
+journey.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf)
+portfolio.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf)
+connect.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf)
+style.css | [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/css-validator-results-adnanmuhtadi.github.io_milestone-project-1_assets_css_style.css.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/css-validator-results-adnanmuhtadi.github.io_milestone-project-1_assets_css_style.css.pdf)
 
 ## Testing
 
