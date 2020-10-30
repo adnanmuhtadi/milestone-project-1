@@ -180,9 +180,11 @@ On code completion, i ensured my code was validated with no snytax errors. I use
 
 ### Results
 
-With Errors | Without Errors
------------- | -------------
-
+index.html| [With Errors]() | [Without Errors]()
+journey.html| [With Errors]() | [Without Errors]()
+portfolio.html| [With Errors]() | [Without Errors]()
+connect.html| [With Errors]() | [Without Errors]()
+style.css | [With Errors]() | [Without Errors]()
 
 ## Testing
 
