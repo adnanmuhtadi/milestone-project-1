@@ -208,18 +208,18 @@ In this section, I would be testing the User Stories taken from the User Experie
 <img src="reference-files/images/active-navigation.JPG">
 
 -   As a user, I want to be able to view/download the developers' CV so I can find out more information about the developers.
-    #### Method One - My Journey
-    1.  Upon entering the site, click on the 'My Journey' page.
-    1.  Once the webpage has loaded, scroll down to the bottom of the page.
-    1.  I would see a 'CLICK HERE' link within the last section of the page.
-    1.  When clicked, this would take me to another tab where I would be able to see the developers CV in a PDF format and/or download.
+#### Method One - My Journey
+1.  Upon entering the site, click on the 'My Journey' page.
+1.  Once the webpage has loaded, scroll down to the bottom of the page.
+1.  I would see a 'CLICK HERE' link within the last section of the page.
+1.  When clicked, this would take me to another tab where I would be able to see the developers CV in a PDF format and/or download.
 <img src="reference-files/images/click-here.JPG">
 
-    #### Method Two - Footer
-    1.  Upon entering the site, scroll to the bottom of the webpage.
-    1.  A footer is visible to me.
-    1.  I would be able to see the file icon under 'Take a copy of my CV!'
-    1.  When clicked, this would take me to another tab where I would be able to see the developers CV in a PDF format and/or download.
+#### Method Two - Footer
+1.  Upon entering the site, scroll to the bottom of the webpage.
+1.  A footer is visible to me.
+1.  I would be able to see the file icon under 'Take a copy of my CV!'
+1.  When clicked, this would take me to another tab where I would be able to see the developers CV in a PDF format and/or download.
 <img src="reference-files/images/footer.JPG">
 
 <img src="reference-files/images/adnan-cv.JPG">
