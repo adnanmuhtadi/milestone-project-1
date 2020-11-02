@@ -183,13 +183,13 @@ On code completion, i ensured my code was validated with no snytax errors. I use
 
 ### Results
 
-Page | With Errors | Without Errors
------------- | ------------- | -------------
-index.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf)
-journey.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf)
+Page | With Errors | Without Errors | Error Notes
+------------ | ------------- | ------------- | -------------
+index.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | H1 element to to be used as top-level heading only
+journey.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | Attribute Joruney-dates not allowed on element div, The value of the 'for' attribute of the 'label' element must be the ID of a non-hidden form control
 portfolio.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf)
 connect.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf)
-style.css | [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/css-validator-results-adnanmuhtadi.github.io_milestone-project-1_assets_css_style.css.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/css-validator-results-adnanmuhtadi.github.io_milestone-project-1_assets_css_style.css.pdf)
+style.css | No Errors Found | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/css-validator-results-adnanmuhtadi.github.io_milestone-project-1_assets_css_style.css.pdf)
 
 ## Testing
 
@@ -201,12 +201,12 @@ responsiveness
 
 The project was deployed to Github Pages using the following method:
 
-1.  Log into Github and find the [Project Repository](https://github.com/adnanmuhtadi/milestone-project-1)
-1.  At the top of the Repository, find the "[Settings](https://github.com/adnanmuhtadi/milestone-project-1/settings)" option on the menu.
-1.  Scroll down the page until you see "Github Pages" section.
-1.  Under the "Source" section, a drop-down option with the result of "None" is visible. Click on the drop-down option and select "Master Brand".
+1.  Log into Github and found the [Project Repository](https://github.com/adnanmuhtadi/milestone-project-1)
+1.  At the top of the Repository, i clicked the "[Settings](https://github.com/adnanmuhtadi/milestone-project-1/settings)" option on the menu.
+1.  I scrolled down the page until i found "Github Pages" section.
+1.  Under the "Source" section, a drop-down option with the result of "None" is visible. I clicked on the drop-down option and selected "Master Brand".
 1.  The page would automatically refresh itself to the top of the page.
-1.  Scroll down to 'Github Pages' again and you would be able to see a published link which would be your deployed site.
+1.  I scrolled down to 'Github Pages' again and found a published link which is my deployed site URL.
 
 ## Credits
 
