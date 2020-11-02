@@ -1,12 +1,12 @@
 <h1 align="center">Milestone Project 1 - Adnan Muhtadi Personal Portfolio </h1>
 
-[View project here.](https://adnanmuhtadi.github.io/milestone-project-1/)
+[View project here](https://adnanmuhtadi.github.io/milestone-project-1/)
 
 This is my personal portfolio site where I would be able to advertise my skills and other web projects that I have developed. It will also be a placeholder where I would advertise myself, my skills, employment history projects as well as a method of contacting me. This project would utilise the skills that I have learnt from this course to achieve this project.
 
 The content of this site would be used throughout my journey as my skills and projects would forever keep developing. This site would consist of various technologies such as HTML5, CSS3 as well as bootstrap (further technologies would be utilised as my skills develop throughout my career in development). This site will be responsive which would make it accessible on all size devices.
 
-<h2 align="center"><img src="#"></h2>
+<h2 align="center"><img src="reference-files/images/homepage.JPG"></h2>
 
 ## User Experience (UX)
 
@@ -197,16 +197,26 @@ Testing was taken place during my build of the site. I was utilising Brackets pl
 
 In this section, I would be testing the User Stories taken from the User Experience Section (UX), testing the functionality and useability, testing the responsive views as well as browser testing.
 
+### Further Testing
 
-### User Stories Testing from User Experience (UX) Section - [View Results]()
+#### User Stories Testing from User Experience (UX) Section - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/testing/user-testing-uk.md)
 
 When carrying out the User Stories Testing, I placed my self as the user being provided instructions on how to achieve the goals that were identified. The intended type of users which this website is targeted for are Recruiters, Employers, Businesses and Independent Contractors. I displayed screenshots with the results of each finding to provide evidence of the stories being achieved successfully.
 
 
+#### Functionality and Useability Testing
 
-functionality
-useability
-responsiveness
+
+
+#### Browser and Responsive Testing
+
+All tests which have been mentioned in the link above has been tested on the following browsers: Chrome, Edge, Firefox and Safari. All features and functions worked as expected, including the addition of UX designs. The site was also tested on different size devices which consisted of a desktop 22inch, a laptop, a tablet as well as a mobile phone.
+
+### Known Issues
+
+- On the home page, on a larger screen, I could not get the pointing down arrows icon to align with the other pages.
+
+- The contact form within the connect page, is not currently connected to a mail server to send emails.
 
 ## Deployment
 
@@ -223,11 +233,11 @@ The project was deployed to Github Pages using the following method:
 
 To make a clone, I had to get the SSH key from the repository which allowed me to clone the repository to my local hard drive.
 
-Method 1: Github Desktop
+#### Method 1: Github Desktop
 
 The alternative method which I used when I first started the project was [Github Desktop](https://desktop.github.com/). I was able to connect my Github repository and push my files through that method. I eventually stopped as the plugin within my code editor did the same job. This enabled me to have one less application to have running while developing.
 
-Method 2: (mostly used)
+#### Method 2: (mostly used)
 
 Within brackets (Editing tool), I was able to download a plugin which enabled me to connect brackets to my GitHub repository. Whenever code was created and saved, I was given the option to commit and make notes on the upload. Once done, I was able to push the changes to GitHub.
 
