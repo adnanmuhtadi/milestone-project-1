@@ -35,7 +35,7 @@ The intended type of users which this website is targeted for are Recruiters, Em
 3. As a user, I want to be able to contact the developer so I can ask questions if I want to reach out to him.
 4. As a user, I want to find social media links so I can follow their activity.
 5. As a user, I want to see the developers portfolio so I can see what other sites they have developed.
-6.  As a user, I want to see the developers skillsets so I know what his main skills are.
+6. As a user, I want to see the developers skillsets so I know what his main skills are.
 
 ### Design
 -   #### Colour Scheme
@@ -193,6 +193,66 @@ style.css | No Errors Found | [Without Errors](https://github.com/adnanmuhtadi/m
 
 ## Testing
 
+Testing was taken place during my build of the site. I was utilising Brackets plugin 'Live Preview' to visually see what my website looks like with every change that is made. I was also utilising Chrome Dev Tools to assist with changes when code was not working as planned. Within Chrome Dev Tools, I was also utilising the responsive views to see the development for the responsive sizes.
+
+In this section, I would be testing the User Stories taken from the User Experience Section (UX), testing the functionality and useability, testing the responsive views as well as browser testing.
+
+
+### User Stories Testing from User Experience (UX) Section
+
+-  As a user, I want to be able to identify the different webpages within the website so I can clearly choose which webpage I want to go on.
+    1.  Upon entering the site, I would able to see a navigation bar on the top of the page with my name in bold and underlined
+    1.  Using the mouse, hover over the other webpages 'My Journey', 'My Portfolio' and 'Connect'.
+    1.  I would be able to see the webpages that I can enter as it would also be in bold and underlined.
+
+<img src="reference-files/images/active-navigation.JPG">
+
+-   As a user, I want to be able to view/download the developers' CV so I can find out more information about the developers.
+    #### Method One - My Journey
+    1.  Upon entering the site, click on the 'My Journey' page.
+    1.  Once the webpage has loaded, scroll down to the bottom of the page.
+    1.  I would see a 'CLICK HERE' link within the last section of the page.
+    1.  When clicked, this would take me to another tab where I would be able to see the developers CV in a PDF format and/or download.
+<img src="reference-files/images/click-here.JPG">
+
+    #### Method Two - Footer
+    1.  Upon entering the site, scroll to the bottom of the webpage.
+    1.  A footer is visible to me.
+    1.  I would be able to see the file icon under 'Take a copy of my CV!'
+    1.  When clicked, this would take me to another tab where I would be able to see the developers CV in a PDF format and/or download.
+<img src="reference-files/images/footer.JPG">
+
+<img src="reference-files/images/adnan-cv.JPG">
+
+- As a user, I want to be able to contact the developer so I can ask questions if I want to reach out to him.
+    1.  Upon entering the site, click on the 'Connect' page.
+    1.  Once the webpage has loaded, scroll down to the 'Contact Form' part of the page.
+    1.  Enter information to fill the form.
+    1.  When click on submit, the form will not work as the link is not connected (future development).
+
+<img src="reference-files/images/contact-form.JPG">
+
+- As a user, I want to find social media links so I can follow their activity.
+    1.  Upon entering the site, scroll down to the bottom of the webpage.
+    1.  A footer is visible to me.
+    1.  I would be able to see the social media icons under 'Lets Connect'.
+
+<img src="reference-files/images/footer.JPG">
+
+- As a user, I want to see the developers portfolio so I can see what other sites they have developed.
+    1.  Upon entering the site, click on the 'My Portfolio' page.
+    1.  Once the webpage has loaded, scroll down to the 4 thumbnails which have an image of the webpage as well as a small description under each image.
+    1.  Click on the 'Visit Me!' button within a thumbnail
+    1.  A New tab would open with the site that was made.
+
+<img src="reference-files/images/porfolio-sites.JPG">
+
+- As a user, I want to see the developers skillsets so I know what his main skills are.
+    1.  Upon entering the site, click on the 'My Journey' page.
+    1.  Once the webpage has loaded, scroll down to see progress bars which are ratings of the developers' skills.
+
+<img src="reference-files/images/skills.JPG">
+
 functionality
 useability
 responsiveness
@@ -208,14 +268,17 @@ The project was deployed to Github Pages using the following method:
 1.  The page would automatically refresh itself to the top of the page.
 1.  I scrolled down to 'Github Pages' again and found a published link which is my deployed site URL.
 
-Pushing code to Github
+### Making a Clone
 
-Method 1: (mostly used).
+Method 1: (mostly used)
 
-Within brackets (Editing tool), I was able to download a plugin which enabled me to connect brackets to my github repositary. whenever code was created and saved, i was given the option to commit and make notes on the upload. Once done, i was able to push the changes to github.
+Within brackets (Editing tool), I was able to download a plugin which enabled me to connect brackets to my GitHub repository. Whenever code was created and saved, I was given the option to commit and make notes on the upload. Once done, I was able to push the changes to GitHub.
 
-![Brackets Commit Plugin](../reference-files/images/brackets-commit.JPG)
+<img src="reference-files/images/brackets-commit.JPG">
 
+Method 2: Github Desktop
+
+The alternative method which I used when I first started the project was [Github Desktop](https://desktop.github.com/). I was able to connect my Github repository and push my files through that method. I eventually stopped as the plugin within my code editor did the same job. This enabled me to have one less application to have running while developing.
 
 ## Credits
 
