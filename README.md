@@ -139,7 +139,9 @@ The features that will be utilised in this project will be as follows:
 
 -   Placeholder on the website with personal information to be able to reach out easier.
 
--   To make the hover-over features more animated
+-   To make the hover-over features more animated.
+
+-   To make the navigation bar collapsable on smaller devices.
 
 ## Technologies Used
 
@@ -153,7 +155,7 @@ The features that will be utilised in this project will be as follows:
 ### Frameworks, Libraries & Programs Used
 
 1. [Google Chrome:](https://www.google.co.uk/intl/en_uk/chrome/)
-    - Default browser used to visually display the build process.
+    - Default browser used to visually display the build process as well as utilising Chrome Dev Tools to assist where needed.
 1. [Paint 3D:](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
     - Was used to crop images to be the same size throughout
 1. [Bootstrap 4.5.2:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
