@@ -186,10 +186,8 @@ On code completion, i ensured my code was validated with no snytax errors. I use
 Page | With Errors | Without Errors | Error Notes
 ------------ | ------------- | ------------- | -------------
 index.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | H1 element to to be used as top-level heading only
-journey.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | Attribute Joruney-dates not allowed on element div.
-The value of the 'for' attribute of the 'label' element must be the ID of a non-hidden form control
-portfolio.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | Bad value 'button' for attribute 'type' on element 'a': Subtype missing.
-Attribute 'value' not allowed on element 'a' as well as 'button'
+journey.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | Attribute Joruney-dates not allowed on element div. The value of the 'for' attribute of the 'label' element must be the ID of a non-hidden form control
+portfolio.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | Bad value 'button' for attribute 'type' on element 'a': Subtype missing. Attribute 'value' not allowed on element 'a' as well as 'button'
 connect.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf)
 style.css | No Errors Found | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/css-validator-results-adnanmuhtadi.github.io_milestone-project-1_assets_css_style.css.pdf) | The value of the 'for'attribute for the 'label' element must be the ID for a non-hidden form control.
 
@@ -209,6 +207,15 @@ The project was deployed to Github Pages using the following method:
 1.  Under the "Source" section, a drop-down option with the result of "None" is visible. I clicked on the drop-down option and selected "Master Brand".
 1.  The page would automatically refresh itself to the top of the page.
 1.  I scrolled down to 'Github Pages' again and found a published link which is my deployed site URL.
+
+Pushing code to Github
+
+Method 1: (mostly used).
+
+Within brackets (Editing tool), I was able to download a plugin which enabled me to connect brackets to my github repositary. whenever code was created and saved, i was given the option to commit and make notes on the upload. Once done, i was able to push the changes to github.
+
+![Brackets Commit Plugin](../reference-files/images/brackets-commit.JPG)
+
 
 ## Credits
 
