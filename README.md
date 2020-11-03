@@ -199,12 +199,12 @@ In this section, I would be testing the User Stories taken from the User Experie
 
 ### Further Testing
 
-#### User Stories Testing from User Experience (UX) Section - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/testing/user-testing-uk.md)
+#### User Stories Testing from User Experience (UX) Section - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/testing-md-docs/user-testing-uk.md)
 
 When carrying out the User Stories Testing, I placed my self as the user being provided instructions on how to achieve the goals that were identified. The intended type of users which this website is targeted for are Recruiters, Employers, Businesses and Independent Contractors. I displayed screenshots with the results of each finding to provide evidence of the stories being achieved successfully.
 
 
-#### Functionality and Useability Testing - [View Results]()
+#### Functionality and Useability Testing - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/testing-md-docs/features-function-testing.md)
 
 Testing all my functions and features within the site and ensuring that it is useable across different browsers and devices. I laid the results out in a table with each section defining the feature/function, a description of what I am testing as well as if it passes or fails.
 
