@@ -210,7 +210,7 @@ Testing all my functions and features within the site and ensuring that it is us
 
 #### Browser and Responsive Testing
 
-All tests which have been mentioned in the link above has been tested on the following browsers: Chrome, Edge, Firefox and Safari. All features and functions worked as expected, including the addition of UX designs. The site was also tested on different size devices which consisted of a desktop 22inch, a laptop, a tablet as well as a mobile phone.
+All tests which have been mentioned in the link above has been tested on the following browsers: Chrome, Edge, Firefox and Safari. All features and functions worked as expected, including the addition of UX designs (excpet for the known issues mentioned below). The site was also tested on different size devices which consisted of a desktop 22inch, a laptop, a tablet as well as a mobile phone.
 
 ### Known Issues
 

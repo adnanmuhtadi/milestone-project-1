@@ -68,7 +68,12 @@ Font | Displaying 'Poppins' as the font family | :heavy_check_mark: |
 
 Feature/Function | Description | Pass | Fail
 ------------ | ------------- | ------------- | -------------
-
+Header image (Web view only) | Cover the page from under the navigation bar  | :heavy_check_mark: |
+Button Scroll hover (Web view only) | A grey background with white icon to be displayed when hovered over | :heavy_check_mark: |
+Button Scroll active (Web view only) | When clicked, to have the main content of the webpage displaying at the top of the page | :heavy_check_mark: |
+'Visit Me!' button hover | When hovering over the 'Visit Me!' button, the box gets darker and the font gets bolder | :heavy_check_mark: |
+'Visit Me!' buttom click | By clicking on the 'Visit Me! button, it would open a new tab with the site it is reprosenting | :heavy_check_mark: |
+Font | Displaying 'Poppins' as the font family | :heavy_check_mark: |
 
 ## Connect Page
 
