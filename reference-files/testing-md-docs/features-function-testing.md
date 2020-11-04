@@ -56,7 +56,13 @@ Feature/Function | Description | Pass | Fail
 
 Feature/Function | Description | Pass | Fail
 ------------ | ------------- | ------------- | -------------
-
+Header image (Web view only) | Cover the page from under the navigation bar  | :heavy_check_mark: |
+Button Scroll hover (Web view only) | A grey background with white icon to be displayed when hovered over | :heavy_check_mark: |
+Button Scroll active (Web view only) | When clicked, to have the main content of the webpage displaying at the top of the page | :heavy_check_mark: |
+'Click Here' CV link  | When clicked, a new tab would open the developers CV in a PDF format | :heavy_check_mark: |
+Download CV | To download/save a copy of the CV from the browser | :heavy_check_mark: |
+Skills section not visible (Mobile view) | When in mobile view, Skills section would not be visible and the journey timeline would be centered in the middle | :heavy_check_mark: |
+Font | Displaying 'Poppins' as the font family | :heavy_check_mark: |
 
 ## My Portfolio Page
 
