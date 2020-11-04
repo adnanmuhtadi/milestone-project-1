@@ -50,3 +50,34 @@ Font | Displaying 'Montserrat' as the font family | :heavy_check_mark: |
 
 Feature/Function | Description | Pass | Fail
 ------------ | ------------- | ------------- | -------------
+
+
+## My Journey Page
+
+Feature/Function | Description | Pass | Fail
+------------ | ------------- | ------------- | -------------
+
+
+## My Portfolio Page
+
+Feature/Function | Description | Pass | Fail
+------------ | ------------- | ------------- | -------------
+
+
+## Connect Page
+
+Feature/Function | Description | Pass | Fail
+------------ | ------------- | ------------- | -------------
+Header image (Web view only) | Cover the page from under the navigation bar  | :heavy_check_mark: |
+Text on header image | Image to be visible on top of the header image | :heavy_check_mark: |
+Button Scroll hover (Web view only) | A grey background with white icon to be displayed when hovered over | :heavy_check_mark: |
+Button Scroll active (Web view only) | When clicked, to have the main content of the webpage displaying at the top of the page | :heavy_check_mark: |
+Full Name field validation | Error message appears if left blank and then click on the 'Submit' button | :heavy_check_mark: |
+Email Address field validation | Error message appears if left blank and/or doesnt have an '@' when the 'Submit' button is clicked  | :heavy_check_mark: |
+Message field validation | Error message appears if left blank and then click on the 'Submit' button | :heavy_check_mark: |
+Submit button trigger | Will submit and the the form to developer and refresh the page once the clicks |  | :x:
+Contact form page layout (Mobile view only) | When in a mobile device, the structure of the form would be that the labels be ontop of the text boxes | :heavy_check_mark: |
+Font | Displaying 'Poppins' as the font family | :heavy_check_mark: |
+
+
+[Return to main README.md](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/README.md)

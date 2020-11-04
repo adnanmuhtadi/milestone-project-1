@@ -245,8 +245,6 @@ Within brackets (Editing tool), I was able to download a plugin which enabled me
 
 ## Credits
 
-
-
 ### Code
 
 
