@@ -8,7 +8,6 @@ A pass would mean that the feature that I am testing has been run on the said br
 
 Feature/Function | Description | Pass | Fail
 ------------ | ------------- | ------------- | -------------
-Font | Displaying 'Montserrat' as the font family | :heavy_check_mark:  |
 My Journey hover | When hovering over 'My Journey', the font becomes bold and underlined | :heavy_check_mark: |
 My Journey active | When on 'My Journey' page, the link would be on a fixed style which is bold and underlined | :heavy_check_mark: |
 Nav bar style return when not active | When you are on 'My Journey' page, the rest of the naviation bar links would return to normal styling  | :heavy_check_mark: |
@@ -21,4 +20,33 @@ Nav bar style return when not active |  When you are on 'Connect' page, the rest
 Home page hover | When hovering over 'Adnan Muhtadi', the font becomes bold and underlined | :heavy_check_mark: |
 Home page active | When on 'Adnan Muhtadi' page, the link would be on a fixed style which is bold and underlined | :heavy_check_mark: |
 Nav bar style return when not active |  When you are on 'Adnan Muhtadi' page, the rest of the naviation bar links would return to normal styling  | :heavy_check_mark: |
-Layout on mobile view | Links to be displayed in rows | :heavy_check_mark:  |
+Layout on mobile view | Links to be displayed in rows | :heavy_check_mark: |
+Font | Displaying 'Montserrat' as the font family | :heavy_check_mark: |
+
+## Footer
+
+Feature/Function | Description | Pass | Fail
+------------ | ------------- | ------------- | -------------
+Hover over quick link | A shadow effect would appear when hovering over the quick links | :heavy_check_mark: |
+My Jorney quick link | When clicked, to be directed to the 'My Journey' page | :heavy_check_mark: |
+My Portfolio quick link | When clicked, to be directed to the 'My Portfolio' page | :heavy_check_mark: |
+Connect quick link | When clicked, to be directed to the 'Connect' page | :heavy_check_mark: |
+Home quick link | When clicked, to be directed to the 'Home' page | :heavy_check_mark: |
+Social Media icon hover | A shadow effect would appear when hovering over the social media icons | :heavy_check_mark: |
+Facebook link | Facebook would open in a new tab when clicked | :heavy_check_mark: |
+Instagram link | Instagram would open in a new tab when clicked | :heavy_check_mark: |
+Twitter link | Twitter would open in a new tab when clicked | :heavy_check_mark: |
+Youtube link | Youtube would open in a new tab when clicked | :heavy_check_mark: |
+LinkedIn link | LinkedIn would open in a new tab when clicked | :heavy_check_mark: |
+Snapchat link | Snapchat would open in a new tab when clicked | :heavy_check_mark: |
+Pinterest link | Pinterest would open in a new tab when clicked | :heavy_check_mark: |
+GitHub link | GitHub would open in a new tab when clicked | :heavy_check_mark: |
+CV Link  | When clicked, a new tab would open the developers CV in a PDF format | :heavy_check_mark: |
+Download CV | To download/save a copy of the CV from the browser | :heavy_check_mark: |
+Footer format on Mobile device | When site is visited on a mobile device, to have the layout of the footer in a row by row case above each other rather than next to each other | :heavy_check_mark: |
+Font | Displaying 'Montserrat' as the font family | :heavy_check_mark: |
+
+## Home Page
+
+Feature/Function | Description | Pass | Fail
+------------ | ------------- | ------------- | -------------
