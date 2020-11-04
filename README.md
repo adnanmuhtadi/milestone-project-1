@@ -251,10 +251,29 @@ Within brackets (Editing tool), I was able to download a plugin which enabled me
 
 ### Content
 
-
+The content that was used to build the website from my [CV](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/assets/cv/adnan-muhtadi-cv.pdf) as well as from what has been taught from the Code Instite Lessons and [W3C](https://www.w3schools.com/).
 
 ### Media
 
+The main source for the images i have used is from [Unsplash](https://unsplash.com/):
 
+- Home Page
+    - Header image - https://unsplash.com/photos/vpOeXr5wmR4
+    - Profile picture - taken while i was on holiday.
+    - About me - https://unsplash.com/photos/GDLdU80UDko
+    - Interests
+        - Travelling - https://unsplash.com/photos/Y_LWT7HbpQc
+        - Programming - https://unsplash.com/photos/iacpoKgpBAM
+        - Fitness - https://unsplash.com/photos/Cv7rucR1bhQ
+        - Cooking - https://unsplash.com/photos/qeWlYA2G_n4
+- My Journey
+    - Header image - https://unsplash.com/photos/IuLgi9PWETU
+- My Portfolio
+    - Header image - https://unsplash.com/photos/b21Ty33CqVs
+- Connect
+    - Header image - https://unsplash.com/photos/oIpJ8koLx_s
+
+- The icons used throughout the site were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Acknowledgements
+
