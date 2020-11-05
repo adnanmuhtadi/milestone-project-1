@@ -245,13 +245,27 @@ Within brackets (Editing tool), I was able to download a plugin which enabled me
 
 ## Credits
 
-### Code
-
-
-
 ### Content
 
 The content that was used to build the website from my [CV](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/assets/cv/adnan-muhtadi-cv.pdf) as well as from what has been taught from the Code Instite Lessons and [W3C](https://www.w3schools.com/).
+
+### Code
+
+Most of the code that was used was taken from the Code Institue lessons, however, I utilised other sources for some areas of the site
+
+- Utilised all over the site
+    - Enlarging the background to be the size of the browser window for large screens - https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute
+    - Link within the page - http://www.echoecho.com/htmllinks08.htm
+    - Grid element to manage the layout of the site - https://getbootstrap.com/docs/4.5/layout/grid/
+- My Journey Page
+    - Progress bars for the skills - https://getbootstrap.com/docs/4.5/components/progress/
+    - Icons used within the timeline - https://css-tricks.com/working-with-shapes-in-web-design/
+- Portfolio Page
+    - Card container - https://getbootstrap.com/docs/4.5/components/card/
+    - Card container - https://www.w3schools.com/howto/howto_css_cards.asp
+- README.md
+    - Assist with the styling of some areas within the README.md - https://guides.github.com/features/mastering-markdown/
+    - Icons used within the README file - https://stackoverflow.com/questions/47344571/how-to-draw-checkbox-or-tick-mark-in-github-markdown-table
 
 ### Media
 
@@ -270,10 +284,16 @@ The main source for the images i have used is from [Unsplash](https://unsplash.c
     - Header image - https://unsplash.com/photos/IuLgi9PWETU
 - My Portfolio
     - Header image - https://unsplash.com/photos/b21Ty33CqVs
+    - Other images where taken from as a screenshot from the front page of exisiting sites
 - Connect
     - Header image - https://unsplash.com/photos/oIpJ8koLx_s
+    - Form structure - https://www.w3schools.com/html/html_forms.asp
+-README.md
+    - Image to display my site on the computer - https://unsplash.com/photos/ir5lIkVFqC4
 
 - The icons used throughout the site were taken from [Font Awesome](https://fontawesome.com/)
+    - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text_type=custom&sidebar.open=true&selection.family=Poppins:ital,wght@1,600)
+    - [Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text=Adnan%20Muhtadi&preview.text_type=custom&sidebar.open=true&selection.family=Baloo+Tammudu+2:wght@500)
 
 ### Acknowledgements
 
