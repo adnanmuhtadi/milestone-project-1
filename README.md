@@ -299,4 +299,4 @@ The main source for the images i have used is from [Unsplash](https://unsplash.c
 
 I want to thank my mentor Aaron Sinnott who guided me in the right direction and with his support. This project has opened my eyes to so many helpful tools as well as the resources that are available online such, W3C school as well as stack overflow.
 
-The idea for the website came from one of the projects that we did during the Code Instute lessons, Rosie Resume. It had the right concept behind it however i wanted to advertise not just myself, but the projects i that i would be creating in the future.
+The idea for the website came from one of the projects that we did during the Code Institute lessons, Rosie Resume. It had the right concept behind it, but I wanted to advertise not just myself, but the projects that I would be creating in the future.
