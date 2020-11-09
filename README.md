@@ -6,7 +6,7 @@ This is my personal portfolio site where I would be able to advertise my skills 
 
 The content of this site would be used throughout my journey as my skills and projects would forever keep developing. This site would consist of various technologies such as HTML5, CSS3 as well as bootstrap (further technologies would be utilised as my skills develop throughout my career in development). This site will be responsive which would make it accessible on all size devices.
 
-<h2 align="center"><img src="reference-files/images/homepage.JPG"></h2>
+<h2 align="center"><img src="documentation/images/homepage.JPG"></h2>
 
 ## User Experience (UX)
 
@@ -50,26 +50,26 @@ The intended type of users which this website is targeted for are Recruiters, Em
 *   ### Wireframes
 
     #### Home Page
-    -   Home Page Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/home-wireframe-laptop.pdf)
-    -   Home Page Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/home-wireframe-tablet.pdf)
-    -   Home Page Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/home-wireframe-mobile.pdf)
+    -   Home Page Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/home-wireframe-laptop.pdf)
+    -   Home Page Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/home-wireframe-tablet.pdf)
+    -   Home Page Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/home-wireframe-mobile.pdf)
 
     #### Journey Page
-    -   My Journey Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/journey-wireframe-laptop.pdf)
-    -   My Journey Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/journey-wireframe-tablet.pdf)
-    -   My Journey Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/journey-wireframe-mobile.pdf)
+    -   My Journey Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/journey-wireframe-laptop.pdf)
+    -   My Journey Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/journey-wireframe-tablet.pdf)
+    -   My Journey Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/journey-wireframe-mobile.pdf)
 
     #### Portfolio Page
-    -   Portfolio Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/portfolio-wireframe-laptop.pdf)
-    -   Portfolio Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/portfolio-wireframe-tablet.pdf)
-    -   Portfolio Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/portfolio-wireframe-mobile.pdf)
+    -   Portfolio Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/portfolio-wireframe-laptop.pdf)
+    -   Portfolio Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/portfolio-wireframe-tablet.pdf)
+    -   Portfolio Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/portfolio-wireframe-mobile.pdf)
 
     #### Connect Page
-    -   Connect Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/connect-wireframe-laptop.pdf)
-    -   Connect Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/connect-wireframe-tablet.pdf)
-    -   Connect Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/connect-wireframe-mobile.pdf)
+    -   Connect Wireframe (Web) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/connect-wireframe-laptop.pdf)
+    -   Connect Wireframe (Tablet) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/connect-wireframe-tablet.pdf)
+    -   Connect Wireframe (Mobile) - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/connect-wireframe-mobile.pdf)
 
-    - Master Wireframes - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/wireframes/milestone-1-master-wireframes.bmpr)
+    - Master Wireframes - [View](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/wireframes/milestone-1-master-wireframes.bmpr)
 
 ## Features
 
@@ -171,7 +171,7 @@ The features that will be utilised in this project will be as follows:
 1. [Github Desktop:](https://desktop.github.com/)
     - A tool that allows you to interact with Github from the desktop
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/adnanmuhtadi/milestone-project-1/tree/master/reference-files/wireframes) during the design process.
+    - Balsamiq was used to create the [wireframes](https://github.com/adnanmuhtadi/milestone-project-1/tree/master/documentation/wireframes) during the design process.
 1. [Brackets:](http://brackets.io/)
     - Brackets was used as my text editor to develop the site.
 1. [Grammerly:](https://app.grammarly.com/)
@@ -191,20 +191,20 @@ On code completion, i ensured my code was validated with no snytax errors. I use
 
 Page | Initial Errors | Resolved Errors | Error Notes
 ------------ | ------------- | ------------- | -------------
-index.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | H1 element to to be used as top-level heading only.
-journey.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | Attribute Joruney-dates not allowed on element div. The value of the 'for' attribute of the 'label' element must be the ID of a non-hidden form control.
-portfolio.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | Bad value 'button' for attribute 'type' on element 'a': Subtype missing. Attribute 'value' not allowed on element 'a' as well as 'button'.
-connect.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | H1 element to to be used as top-level heading only.
-style.css | No Errors Found | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/css-validator-results-adnanmuhtadi.github.io_milestone-project-1_assets_css_style.css.pdf) | The value of the 'for'attribute for the 'label' element must be the ID for a non-hidden form control.
+index.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | H1 element to to be used as top-level heading only.
+journey.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | Attribute Joruney-dates not allowed on element div. The value of the 'for' attribute of the 'label' element must be the ID of a non-hidden form control.
+portfolio.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | Bad value 'button' for attribute 'type' on element 'a': Subtype missing. Attribute 'value' not allowed on element 'a' as well as 'button'.
+connect.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | H1 element to to be used as top-level heading only.
+style.css | No Errors Found | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/validaiton/without-errors/css-validator-results-adnanmuhtadi.github.io_milestone-project-1_assets_css_style.css.pdf) | The value of the 'for'attribute for the 'label' element must be the ID for a non-hidden form control.
 
 ### Further Testing
 
-#### User Stories Testing from User Experience (UX) Section - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/testing-md-docs/user-testing-uk.md)
+#### User Stories Testing from User Experience (UX) Section - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/testing-md-docs/user-testing-uk.md)
 
 When carrying out the User Stories Testing, I placed my self as the user being provided instructions on how to achieve the goals that were identified. The intended type of users which this website is targeted for are Recruiters, Employers, Businesses and Independent Contractors. I displayed screenshots with the results of each finding to provide evidence of the stories being achieved successfully.
 
 
-#### Functionality and Usability Testing - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/testing-md-docs/features-function-testing.md)
+#### Functionality and Usability Testing - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/testing-md-docs/features-function-testing.md)
 
 Testing all my functions and features within the site and ensuring that it is usable across different browsers and devices. I laid the results out in a table with each section defining the feature/function, a description of what I am testing as well as if it passes or fails.
 
@@ -241,7 +241,7 @@ The alternative method which I used when I first started the project was [Github
 
 Within brackets (Editing tool), I was able to download a plugin which enabled me to connect brackets to my GitHub repository. Whenever code was created and saved, I was given the option to commit and make notes on the upload. Once done, I was able to push the changes to GitHub.
 
-<img src="reference-files/images/brackets-commit.JPG">
+<img src="documentation/images/brackets-commit.JPG">
 
 ## Credits
 
