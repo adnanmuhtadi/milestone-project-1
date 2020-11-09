@@ -254,12 +254,12 @@ The content that was used to build the website from my [CV](https://github.com/a
 Most of the code that was used was taken from the Code Institue lessons, however, I utilised other sources for some areas of the site
 
 - Utilised all over the site
-    - Enlarging the background to be the size of the browser window for large screens - https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute
+    - [Enlarging the background](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute) to be the size of the browser window for large screens
     - [Link within the page](http://www.echoecho.com/htmllinks08.htm)
-    - Grid element to manage the layout of the site - https://getbootstrap.com/docs/4.5/layout/grid/
+    - [Grid element](https://getbootstrap.com/docs/4.5/layout/grid/) to manage the layout of the site
 - My Journey Page
     - [Progress bars](https://getbootstrap.com/docs/4.5/components/progress/) for the skills
-    - Icons used within the timeline - https://css-tricks.com/working-with-shapes-in-web-design/
+    - Icons used within the [timeline](https://css-tricks.com/working-with-shapes-in-web-design/)
 - Portfolio Page
     - [Card container](https://getbootstrap.com/docs/4.5/components/card/)
     - [Card container](https://www.w3schools.com/howto/howto_css_cards.asp)
