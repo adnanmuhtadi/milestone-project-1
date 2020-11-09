@@ -80,47 +80,36 @@ The features that will be utilised in this project will be as follows:
 #### Site Features
 
 -   Responsive on devices sized 1024px, 768px, 425px, 375px and 320px.
-
 -   Allows the user to know the navigated hyperlinks, by having hoover over feature within the hyperlinks.
 
 #### Navigation bar
 
 -   All links within the navigation bar would take the user to its representable page.
-
 -   The layout of them would change on a mobile device.
-
 -   Active pages would be visible as the links would be in bold and underlined.
-
 -   All link on the navigation bar has a hover-over effect.
 
 #### Footer
 
 -   Quick links would take you different pages of the website.
-
 -   Clickable social media icons which are connected to my personal social media homepages.
-
 -   Allows the user to download my CV, by having the developers CV to be viewed and downloaded in a PDF format.
 
 #### Header Image
 
 -   Have the header image expand the full width and height of the display on larger screens, but would change depending on the size of the device.
-
 -   On a large screen, Allow user to click on the arrows pointing down on the jumbotron image to see the next content.
 
 #### About Me
 
 -   Would display information about me and my interests in a user friendly and clear view without displaying too much white space.
-
 -   On mobile view, the format of the page would change but the content would remain the same.
 
 #### Journey
 
 -   Allow user to see my skills sets and confidence level of each one.
-
 -   In a responsive view, the skills would disappear and show my journey only.
-
 -   Allow user to go through my journey from birth to where I am today.
-
 -   Allow user to download my CV, by having my CV to be viewed and downloaded in a PDF format.
 
 #### Portfolio
@@ -134,13 +123,9 @@ The features that will be utilised in this project will be as follows:
 ### Features Left to Implement
 
 -   Allow the developer to amend the website via a CMS to update the website quicker.
-
 -   Allowing the contact form to send an email to my email address.
-
 -   Placeholder on the website with personal information to be able to reach out easier.
-
 -   To make the hover-over features more animated.
-
 -   To make the navigation bar collapsable on smaller devices.
 
 ## Technologies Used
@@ -203,7 +188,6 @@ style.css | No Errors Found | [Resolved Errors](https://github.com/adnanmuhtadi/
 
 When carrying out the User Stories Testing, I placed my self as the user being provided instructions on how to achieve the goals that were identified. The intended type of users which this website is targeted for are Recruiters, Employers, Businesses and Independent Contractors. I displayed screenshots with the results of each finding to provide evidence of the stories being achieved successfully.
 
-
 #### Functionality and Usability Testing - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/documentation/testing-md-docs/features-function-testing.md)
 
 Testing all my functions and features within the site and ensuring that it is usable across different browsers and devices. I laid the results out in a table with each section defining the feature/function, a description of what I am testing as well as if it passes or fails.
@@ -215,7 +199,6 @@ All tests which have been mentioned in the link above has been tested on the fol
 ### Known Issues
 
 - On the home page, on a larger screen, I could not get the pointing down arrows icon to align with the other pages.
-
 - The contact form within the connect page, is not currently connected to a mail server to send emails.
 
 ## Deployment
