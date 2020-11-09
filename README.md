@@ -177,25 +177,25 @@ The features that will be utilised in this project will be as follows:
 1. [Grammerly:](https://app.grammarly.com/)
     - Online tool which assists with the english grammar.
 
-## Validation
-
-On code completion, i ensured my code was validated with no snytax errors. I used [W3C Markup Validator](https://validator.w3.org/) for HTML5 and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for CSS3 to ensure my code is W3C Compliant.
-
-### Results
-
-Page | With Errors | Without Errors | Error Notes
------------- | ------------- | ------------- | -------------
-index.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | H1 element to to be used as top-level heading only.
-journey.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | Attribute Joruney-dates not allowed on element div. The value of the 'for' attribute of the 'label' element must be the ID of a non-hidden form control.
-portfolio.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | Bad value 'button' for attribute 'type' on element 'a': Subtype missing. Attribute 'value' not allowed on element 'a' as well as 'button'.
-connect.html| [With Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | H1 element to to be used as top-level heading only.
-style.css | No Errors Found | [Without Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/css-validator-results-adnanmuhtadi.github.io_milestone-project-1_assets_css_style.css.pdf) | The value of the 'for'attribute for the 'label' element must be the ID for a non-hidden form control.
-
 ## Testing
 
 Testing was taken place during my build of the site. I was utilising Brackets plugin 'Live Preview' to visually see what my website looks like with every change that is made. I was also utilising Chrome Dev Tools to assist with changes when code was not working as planned. Within Chrome Dev Tools, I was also utilising the responsive views to see the development for the responsive sizes.
 
-In this section, I would be testing the User Stories taken from the User Experience Section (UX), testing the functionality and useability, testing the responsive views as well as browser testing.
+In this section, I would be testing the User Stories taken from the User Experience Section (UX), testing the functionality and usability, testing the responsive views as well as browser testing.
+
+### Validation
+
+On code completion, i ensured my code was validated with no snytax errors. I used [W3C Markup Validator](https://validator.w3.org/) for HTML5 and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for CSS3 to ensure my code is W3C Compliant.
+
+#### Results
+
+Page | Initial Errors | Resolved Errors | Error Notes
+------------ | ------------- | ------------- | -------------
+index.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_index.html.pdf) | H1 element to to be used as top-level heading only.
+journey.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_journey.html.pdf) | Attribute Joruney-dates not allowed on element div. The value of the 'for' attribute of the 'label' element must be the ID of a non-hidden form control.
+portfolio.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_portfolio.html.pdf) | Bad value 'button' for attribute 'type' on element 'a': Subtype missing. Attribute 'value' not allowed on element 'a' as well as 'button'.
+connect.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/with-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/validation-results-adnanmuhtadi.github.io_milestone-project-1_connect.html.pdf) | H1 element to to be used as top-level heading only.
+style.css | No Errors Found | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/validaiton/without-errors/css-validator-results-adnanmuhtadi.github.io_milestone-project-1_assets_css_style.css.pdf) | The value of the 'for'attribute for the 'label' element must be the ID for a non-hidden form control.
 
 ### Further Testing
 
@@ -204,9 +204,9 @@ In this section, I would be testing the User Stories taken from the User Experie
 When carrying out the User Stories Testing, I placed my self as the user being provided instructions on how to achieve the goals that were identified. The intended type of users which this website is targeted for are Recruiters, Employers, Businesses and Independent Contractors. I displayed screenshots with the results of each finding to provide evidence of the stories being achieved successfully.
 
 
-#### Functionality and Useability Testing - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/testing-md-docs/features-function-testing.md)
+#### Functionality and Usability Testing - [View Results](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/reference-files/testing-md-docs/features-function-testing.md)
 
-Testing all my functions and features within the site and ensuring that it is useable across different browsers and devices. I laid the results out in a table with each section defining the feature/function, a description of what I am testing as well as if it passes or fails.
+Testing all my functions and features within the site and ensuring that it is usable across different browsers and devices. I laid the results out in a table with each section defining the feature/function, a description of what I am testing as well as if it passes or fails.
 
 #### Browser and Responsive Testing
 
@@ -255,41 +255,41 @@ Most of the code that was used was taken from the Code Institue lessons, however
 
 - Utilised all over the site
     - Enlarging the background to be the size of the browser window for large screens - https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute
-    - Link within the page - http://www.echoecho.com/htmllinks08.htm
+    - [Link within the page](http://www.echoecho.com/htmllinks08.htm)
     - Grid element to manage the layout of the site - https://getbootstrap.com/docs/4.5/layout/grid/
 - My Journey Page
-    - Progress bars for the skills - https://getbootstrap.com/docs/4.5/components/progress/
+    - [Progress bars](https://getbootstrap.com/docs/4.5/components/progress/) for the skills
     - Icons used within the timeline - https://css-tricks.com/working-with-shapes-in-web-design/
 - Portfolio Page
-    - Card container - https://getbootstrap.com/docs/4.5/components/card/
-    - Card container - https://www.w3schools.com/howto/howto_css_cards.asp
+    - [Card container](https://getbootstrap.com/docs/4.5/components/card/)
+    - [Card container](https://www.w3schools.com/howto/howto_css_cards.asp)
 - README.md
-    - Assist with the styling of some areas within the README.md - https://guides.github.com/features/mastering-markdown/
-    - Icons used within the README file - https://stackoverflow.com/questions/47344571/how-to-draw-checkbox-or-tick-mark-in-github-markdown-table
+    - Assist with the styling of some areas within the [README.md](https://guides.github.com/features/mastering-markdown/)
+    - [Icons](https://stackoverflow.com/questions/47344571/how-to-draw-checkbox-or-tick-mark-in-github-markdown-table) used within the README file
 
 ### Media
 
 The main source for the images i have used is from [Unsplash](https://unsplash.com/):
 
 - Home Page
-    - Header image - https://unsplash.com/photos/vpOeXr5wmR4
+    - [Header image](https://unsplash.com/photos/vpOeXr5wmR4)
     - Profile picture - taken while i was on holiday.
-    - About me - https://unsplash.com/photos/GDLdU80UDko
+    - [About me](https://unsplash.com/photos/GDLdU80UDko)
     - Interests
-        - Travelling - https://unsplash.com/photos/Y_LWT7HbpQc
-        - Programming - https://unsplash.com/photos/iacpoKgpBAM
-        - Fitness - https://unsplash.com/photos/Cv7rucR1bhQ
-        - Cooking - https://unsplash.com/photos/qeWlYA2G_n4
+        - [Travelling](https://unsplash.com/photos/Y_LWT7HbpQc)
+        - [Programming](https://unsplash.com/photos/iacpoKgpBAM)
+        - [Fitness](https://unsplash.com/photos/Cv7rucR1bhQ)
+        - [Cooking](https://unsplash.com/photos/qeWlYA2G_n4)
 - My Journey
-    - Header image - https://unsplash.com/photos/IuLgi9PWETU
+    - [Header image](https://unsplash.com/photos/IuLgi9PWETU)
 - My Portfolio
-    - Header image - https://unsplash.com/photos/b21Ty33CqVs
+    - [Header image](https://unsplash.com/photos/b21Ty33CqVs)
     - Other images where taken from as a screenshot from the front page of exisiting sites
 - Connect
-    - Header image - https://unsplash.com/photos/oIpJ8koLx_s
-    - Form structure - https://www.w3schools.com/html/html_forms.asp
+    - [Header image](https://unsplash.com/photos/oIpJ8koLx_s)
+    - [Form structure](https://www.w3schools.com/html/html_forms.asp)
 -README.md
-    - Image to display my site on the computer - https://unsplash.com/photos/ir5lIkVFqC4
+    - [Image to display](https://unsplash.com/photos/ir5lIkVFqC4) my site on the computer
 
 - The icons used throughout the site were taken from [Font Awesome](https://fontawesome.com/)
     - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text_type=custom&sidebar.open=true&selection.family=Poppins:ital,wght@1,600)
