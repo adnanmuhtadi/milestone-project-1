@@ -45,7 +45,6 @@ body {
     color: #000000;
 }
 
-
 .active,
 .mainhome:hover,
 .right:hover {
@@ -133,7 +132,7 @@ h3 {
     font-family: "Montserrat", sans-serif;
 }
 
-/* as it was linked to another div, i had to make a seperate div to align the arros with the header*/
+/* As it was linked to another div, i had to make a seperate div to align the arros with the header*/
 .down-index {
     bottom: 20px;
     font-size: 100px;
@@ -306,6 +305,7 @@ arabic {
 .card {
     border: 1px solid #000000;
     height: 425px;
+    margin-bottom: 50px;
 }
 
 .projects p {
@@ -354,6 +354,7 @@ arabic {
 
 .connect-form {
     background-color: #FCFCFC;
+    margin-bottom: 120px;
 }
 
 .center-form {
@@ -365,6 +366,10 @@ arabic {
 #contactlabel {
     padding: 3%;
     text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
 }
 
 #user-fullname:hover,
